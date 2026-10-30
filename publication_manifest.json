@@ -1,12 +1,12 @@
 {
-  "snapshot_id": "staging-20261026T180046-61d03c1e",
-  "previous_snapshot_id": "staging-20261019T184657-038b7d63",
+  "snapshot_id": "staging-20261030T222203-2bf40c19",
+  "previous_snapshot_id": "staging-20261026T180046-61d03c1e",
   "dataset_version": "car-wash-v3-7-3",
   "product_version": "3.7.3",
   "public_ui_fingerprint": "303235efa15028cb9f95b2248a03ca436b0394004608461077bbfb46881d87a9",
-  "created_at": "2026-10-26T18:00:46.041447+00:00",
-  "activated_at": "2026-10-26T18:00:46.041447+00:00",
-  "case_count": 35,
+  "created_at": "2026-10-30T22:22:03.871279+00:00",
+  "activated_at": "2026-10-30T22:22:03.871279+00:00",
+  "case_count": 36,
   "release_profile": "INTERNAL_FULL",
   "asset_mode": "INTERNAL_REFERENCE_OR_GENERATED",
   "asset_generator_version": null,
@@ -45,12 +45,13 @@
     "case-b1bd5683b57a": "5f6ad0ad6184cfae8d4306ef65cf592f41b66d0e6c3ad9a250d65b100cecc26c",
     "case-31cdf14c2eb6": "a2c5216e7b61f37a6cc83659e5fc5f0343a932dc2039fbece4fb0fb2eef45320",
     "case-18c5f68016a2": "bd4a6479da19847d83390ea4bb990110f30b82c760326800690575719c18ea33",
+    "case-a78fa8fbee99": "f6dd94bd350449ddb271dc2f905da50d406dac67c84822987707fdfec0681f91",
     "case-bcea2b291dd5": "957cf230e5c7a864f861121d5d8d6873e304e6988f1bd5fa47e6813f5dc93183"
   },
   "visibility": "local-editorial-preview-only",
   "production_deployment": "DISABLED",
   "approval_boundary": "Internal editorial preview only; human review and publication approval are still required.",
-  "source_commit_sha": "a21f00f871aa9f4564c646be0ce306636f230f47",
+  "source_commit_sha": "0000000000000000000000000000000000000000",
   "public_schema_version": "public-case-copy-v1",
   "taxonomy_version": "case-taxonomy-v1",
   "render_mode": "INTERNAL_STAGING",
@@ -143,6 +144,18 @@
   "site_image_credits": {},
   "site_revision_id": "site-revision-42b23bc83fe5422d",
   "site_revision_hash": "42b23bc83fe5422d8874fd5158964530c0b847ec3fec2648d747b6a39b34cee1",
+  "case_removal_proofs": {
+    "case-11c6d184d7c59fbc": {
+      "action": "WITHDRAW",
+      "lifecycle_event_id": "lifecycle-edcfccc64c614e50",
+      "expected_public_version": "case-11c6d184d7c59fbc-v-3ba7a5e6c6bd"
+    },
+    "case-032bdd50d15c9f65": {
+      "action": "WITHDRAW",
+      "lifecycle_event_id": "lifecycle-400453ee5dbd433d",
+      "expected_public_version": "case-032bdd50d15c9f65-v-2c8758356180"
+    }
+  },
   "exact_case_versions": {
     "case-f1e1186726cc4e3e": "case-f1e1186726cc4e3e-v-f1ab81684778",
     "case-ea09a24590a79bd4": "case-ea09a24590a79bd4-v-3dc82e87a615",
@@ -171,6 +184,7 @@
     "case-4ede7f783a7ccfd3": "case-4ede7f783a7ccfd3-v-ee13796a0c2a",
     "case-65449b8391057437": "case-65449b8391057437-v-59913b1fb364",
     "case-d3a63b579b601b80": "case-d3a63b579b601b80-v-e151a62d9081",
+    "case-1c636acd76dc6af9": "editorial-866bd905851e4ae4",
     "case-88982690711cb588": "editorial-b26792d457e54189",
     "case-0f7735f838321ee6": "editorial-e0ae06e5c4d3468b",
     "case-009448c9644bb9a1": "editorial-bc49571ad7284bbe",
@@ -178,7 +192,7 @@
     "case-702cf2b2336c1439": "editorial-fa2f861ae92a4f33",
     "case-a6483fa8f15cdb49": "editorial-e09a5579ffbd4f19",
     "case-1ac4d4e7a3cf0e9a": "editorial-6205fd99751142a0",
-    "case-1c636acd76dc6af9": "editorial-866bd905851e4ae4"
+    "case-42298c40ca57d16a": "editorial-ac964d9a9a3243d7"
   },
   "primary_collection": "Washington and Pacific Northwest",
   "external_collection": "Transferable Examples from Other Regions",
@@ -186,16 +200,12 @@
   "public_index": {
     "schema": "car-wash-public-index-manifest-v1",
     "path": "public-data/manifest.json",
-    "active_public_count": 35,
+    "active_public_count": 36,
     "shard_count": 1,
     "delta": {
       "changed_public_ids": [
-        "case-18c5f68016a2",
-        "case-31cdf14c2eb6",
-        "case-9ab887e6221d",
-        "case-b1bd5683b57a",
-        "case-bcea2b291dd5",
-        "case-ff03cf75659e"
+        "case-a78fa8fbee99",
+        "case-bcea2b291dd5"
       ],
       "removed_public_ids": [],
       "changed_shards": [
