@@ -6,7 +6,7 @@
   "variable": null,
   "period": null,
   "unit": null,
-  "last_checked_at": "2026-10-30T22:22:03.871279+00:00",
+  "last_checked_at": "2026-10-30T22:47:55.741095+00:00",
   "case_density_is_not_hazard_trend": true,
   "message": "No climate observation values are bundled in this snapshot. Open NOAA for official state time series; do not infer trends from case locations.",
   "states": []
