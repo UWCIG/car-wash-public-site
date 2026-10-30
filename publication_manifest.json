@@ -1,12 +1,12 @@
 {
-  "snapshot_id": "staging-20261030T233928-1f543370",
-  "previous_snapshot_id": "staging-20261030T225109-40dabbdf",
+  "snapshot_id": "staging-20261030T234533-bef3ce71",
+  "previous_snapshot_id": "staging-20261030T233928-1f543370",
   "dataset_version": "car-wash-v3-7-3",
   "product_version": "3.7.3",
   "public_ui_fingerprint": "303235efa15028cb9f95b2248a03ca436b0394004608461077bbfb46881d87a9",
-  "created_at": "2026-10-30T23:39:28.538827+00:00",
-  "activated_at": "2026-10-30T23:39:28.538827+00:00",
-  "case_count": 37,
+  "created_at": "2026-10-30T23:45:33.500401+00:00",
+  "activated_at": "2026-10-30T23:45:33.500401+00:00",
+  "case_count": 38,
   "release_profile": "INTERNAL_FULL",
   "asset_mode": "INTERNAL_REFERENCE_OR_GENERATED",
   "asset_generator_version": null,
@@ -46,6 +46,7 @@
     "case-b4c7ff13c6f3": "cf49e3ee5e9583b6d7cc36b396d92cf896b96ea4afcceae301474dac8989cda3",
     "case-18c5f68016a2": "bd4a6479da19847d83390ea4bb990110f30b82c760326800690575719c18ea33",
     "case-b50247c686a4": "44596d5da021cabf1fee887ffb451a84fe5773ebc1ec79d067a926a0fb44e03a",
+    "case-01abf7af7f34": "2a89390baa87e805366604d4181abc6c5fe4a469a967f26e03dc754cb89e3309",
     "case-55cf1bf6c1ce": "c50bd1dc70cea451e36da27f1200d8bba54506eb2572c49319ef70b4d5ba39d6",
     "case-f80799fd1655": "f07bcd6aa02cf6ebe78596c0adfa1713e30b83748795110f4c85797fbbaebd49"
   },
@@ -190,6 +191,7 @@
     "case-4ede7f783a7ccfd3": "case-4ede7f783a7ccfd3-v-ee13796a0c2a",
     "case-65449b8391057437": "case-65449b8391057437-v-59913b1fb364",
     "case-d3a63b579b601b80": "case-d3a63b579b601b80-v-e151a62d9081",
+    "case-120ba97d52519e54": "editorial-e40ea5647c664bdc",
     "case-8a2cba238f276101": "editorial-d881665f55b94059",
     "case-42298c40ca57d16a": "editorial-ac964d9a9a3243d7",
     "case-1c636acd76dc6af9": "editorial-866bd905851e4ae4",
@@ -199,7 +201,7 @@
     "case-702cf2b2336c1439": "editorial-fa2f861ae92a4f33",
     "case-a6483fa8f15cdb49": "editorial-e09a5579ffbd4f19",
     "case-1ac4d4e7a3cf0e9a": "editorial-6205fd99751142a0",
-    "case-120ba97d52519e54": "editorial-e40ea5647c664bdc"
+    "case-dcfbbb80f76d1b89": "editorial-13727bb451d3443c"
   },
   "primary_collection": "Washington and Pacific Northwest",
   "external_collection": "Transferable Examples from Other Regions",
@@ -207,10 +209,12 @@
   "public_index": {
     "schema": "car-wash-public-index-manifest-v1",
     "path": "public-data/manifest.json",
-    "active_public_count": 37,
+    "active_public_count": 38,
     "shard_count": 1,
     "delta": {
       "changed_public_ids": [
+        "case-01abf7af7f34",
+        "case-55cf1bf6c1ce",
         "case-f80799fd1655"
       ],
       "removed_public_ids": [],
