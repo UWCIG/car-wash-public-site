@@ -1,12 +1,12 @@
 {
-  "snapshot_id": "staging-20261030T225109-40dabbdf",
-  "previous_snapshot_id": "staging-20261030T224755-bfc93096",
+  "snapshot_id": "staging-20261030T233928-1f543370",
+  "previous_snapshot_id": "staging-20261030T225109-40dabbdf",
   "dataset_version": "car-wash-v3-7-3",
   "product_version": "3.7.3",
   "public_ui_fingerprint": "303235efa15028cb9f95b2248a03ca436b0394004608461077bbfb46881d87a9",
-  "created_at": "2026-10-30T22:51:09.957806+00:00",
-  "activated_at": "2026-10-30T22:51:09.957806+00:00",
-  "case_count": 36,
+  "created_at": "2026-10-30T23:39:28.538827+00:00",
+  "activated_at": "2026-10-30T23:39:28.538827+00:00",
+  "case_count": 37,
   "release_profile": "INTERNAL_FULL",
   "asset_mode": "INTERNAL_REFERENCE_OR_GENERATED",
   "asset_generator_version": null,
@@ -46,7 +46,8 @@
     "case-b4c7ff13c6f3": "cf49e3ee5e9583b6d7cc36b396d92cf896b96ea4afcceae301474dac8989cda3",
     "case-18c5f68016a2": "bd4a6479da19847d83390ea4bb990110f30b82c760326800690575719c18ea33",
     "case-b50247c686a4": "44596d5da021cabf1fee887ffb451a84fe5773ebc1ec79d067a926a0fb44e03a",
-    "case-55cf1bf6c1ce": "c50bd1dc70cea451e36da27f1200d8bba54506eb2572c49319ef70b4d5ba39d6"
+    "case-55cf1bf6c1ce": "c50bd1dc70cea451e36da27f1200d8bba54506eb2572c49319ef70b4d5ba39d6",
+    "case-f80799fd1655": "f07bcd6aa02cf6ebe78596c0adfa1713e30b83748795110f4c85797fbbaebd49"
   },
   "visibility": "local-editorial-preview-only",
   "production_deployment": "DISABLED",
@@ -197,7 +198,8 @@
     "case-6618dffab7cf89c0": "editorial-55c17301b9c64661",
     "case-702cf2b2336c1439": "editorial-fa2f861ae92a4f33",
     "case-a6483fa8f15cdb49": "editorial-e09a5579ffbd4f19",
-    "case-1ac4d4e7a3cf0e9a": "editorial-6205fd99751142a0"
+    "case-1ac4d4e7a3cf0e9a": "editorial-6205fd99751142a0",
+    "case-120ba97d52519e54": "editorial-e40ea5647c664bdc"
   },
   "primary_collection": "Washington and Pacific Northwest",
   "external_collection": "Transferable Examples from Other Regions",
@@ -205,23 +207,13 @@
   "public_index": {
     "schema": "car-wash-public-index-manifest-v1",
     "path": "public-data/manifest.json",
-    "active_public_count": 36,
+    "active_public_count": 37,
     "shard_count": 1,
     "delta": {
       "changed_public_ids": [
-        "case-18c5f68016a2",
-        "case-55cf1bf6c1ce",
-        "case-9ab887e6221d",
-        "case-a78fa8fbee99",
-        "case-b1bd5683b57a",
-        "case-b4c7ff13c6f3",
-        "case-b50247c686a4",
-        "case-bcea2b291dd5",
-        "case-ff03cf75659e"
+        "case-f80799fd1655"
       ],
-      "removed_public_ids": [
-        "case-31cdf14c2eb6"
-      ],
+      "removed_public_ids": [],
       "changed_shards": [
         "index/0000.json"
       ]
