@@ -1,13 +1,13 @@
 {
   "meta": {
-    "snapshot_id": "staging-20261030T224755-bfc93096",
-    "previous_snapshot_id": "staging-20261030T222203-2bf40c19",
+    "snapshot_id": "staging-20261030T225109-40dabbdf",
+    "previous_snapshot_id": "staging-20261030T224755-bfc93096",
     "dataset_version": "car-wash-v3-7-3",
     "product_version": "3.7.3",
     "public_ui_fingerprint": "303235efa15028cb9f95b2248a03ca436b0394004608461077bbfb46881d87a9",
-    "created_at": "2026-10-30T22:47:55.741095+00:00",
-    "activated_at": "2026-10-30T22:47:55.741095+00:00",
-    "case_count": 37,
+    "created_at": "2026-10-30T22:51:09.957806+00:00",
+    "activated_at": "2026-10-30T22:51:09.957806+00:00",
+    "case_count": 36,
     "release_profile": "INTERNAL_FULL",
     "asset_mode": "INTERNAL_REFERENCE_OR_GENERATED",
     "asset_generator_version": null,
@@ -39,16 +39,15 @@
       "case-4ede7f783a7c": "627fc500d253188161946cb83c171f1285de2e70980e23214a863f1c77fd9336",
       "case-65449b839105": "d6c08396458ad91473ffdb2354210af887dddb9f31a60152a0f762634b03e207",
       "case-d3a63b579b60": "515d0c708d4cfc0522daef917af0d7c05b93d54d0d41ed92b188c9aa871d447e",
-      "case-b50247c686a4": "44596d5da021cabf1fee887ffb451a84fe5773ebc1ec79d067a926a0fb44e03a",
-      "case-b4c7ff13c6f3": "cf49e3ee5e9583b6d7cc36b396d92cf896b96ea4afcceae301474dac8989cda3",
-      "case-55cf1bf6c1ce": "c50bd1dc70cea451e36da27f1200d8bba54506eb2572c49319ef70b4d5ba39d6",
-      "case-9ab887e6221d": "fda5620ef93833959ba16fa93685c5476350b63698e02f88764b368947aa52a4",
-      "case-ff03cf75659e": "cbda0b7231037872c00d2c67de9e4f1dc295701514bb7b6bc4f7f09bdb59e592",
       "case-b1bd5683b57a": "5f6ad0ad6184cfae8d4306ef65cf592f41b66d0e6c3ad9a250d65b100cecc26c",
-      "case-31cdf14c2eb6": "a2c5216e7b61f37a6cc83659e5fc5f0343a932dc2039fbece4fb0fb2eef45320",
-      "case-18c5f68016a2": "bd4a6479da19847d83390ea4bb990110f30b82c760326800690575719c18ea33",
+      "case-ff03cf75659e": "cbda0b7231037872c00d2c67de9e4f1dc295701514bb7b6bc4f7f09bdb59e592",
+      "case-bcea2b291dd5": "957cf230e5c7a864f861121d5d8d6873e304e6988f1bd5fa47e6813f5dc93183",
       "case-a78fa8fbee99": "f6dd94bd350449ddb271dc2f905da50d406dac67c84822987707fdfec0681f91",
-      "case-bcea2b291dd5": "957cf230e5c7a864f861121d5d8d6873e304e6988f1bd5fa47e6813f5dc93183"
+      "case-9ab887e6221d": "fda5620ef93833959ba16fa93685c5476350b63698e02f88764b368947aa52a4",
+      "case-b4c7ff13c6f3": "cf49e3ee5e9583b6d7cc36b396d92cf896b96ea4afcceae301474dac8989cda3",
+      "case-18c5f68016a2": "bd4a6479da19847d83390ea4bb990110f30b82c760326800690575719c18ea33",
+      "case-b50247c686a4": "44596d5da021cabf1fee887ffb451a84fe5773ebc1ec79d067a926a0fb44e03a",
+      "case-55cf1bf6c1ce": "c50bd1dc70cea451e36da27f1200d8bba54506eb2572c49319ef70b4d5ba39d6"
     },
     "visibility": "local-editorial-preview-only",
     "production_deployment": "DISABLED",
@@ -138,14 +137,14 @@
       ],
       "theme": {
         "accent": "#57418f",
-        "background": "#f4f7f6",
+        "background": "#ffffff",
         "primary": "#34735e",
         "text": "#14273a"
       }
     },
     "site_image_credits": {},
-    "site_revision_id": "site-revision-42b23bc83fe5422d",
-    "site_revision_hash": "42b23bc83fe5422d8874fd5158964530c0b847ec3fec2648d747b6a39b34cee1",
+    "site_revision_id": "site-revision-981ebcb96256e61b-7f828f77",
+    "site_revision_hash": "b350f695748243443c26f0af01d4c7b137242a9fee1456280f67c0dedbef2805",
     "case_removal_proofs": {
       "case-11c6d184d7c59fbc": {
         "action": "WITHDRAW",
@@ -156,6 +155,11 @@
         "action": "WITHDRAW",
         "lifecycle_event_id": "lifecycle-400453ee5dbd433d",
         "expected_public_version": "case-032bdd50d15c9f65-v-2c8758356180"
+      },
+      "case-0f7735f838321ee6": {
+        "action": "WITHDRAW",
+        "lifecycle_event_id": "lifecycle-4eae52f9dd9145f0",
+        "expected_public_version": "editorial-e0ae06e5c4d3468b"
       }
     },
     "exact_case_versions": {
@@ -186,16 +190,15 @@
       "case-4ede7f783a7ccfd3": "case-4ede7f783a7ccfd3-v-ee13796a0c2a",
       "case-65449b8391057437": "case-65449b8391057437-v-59913b1fb364",
       "case-d3a63b579b601b80": "case-d3a63b579b601b80-v-e151a62d9081",
+      "case-8a2cba238f276101": "editorial-d881665f55b94059",
       "case-42298c40ca57d16a": "editorial-ac964d9a9a3243d7",
       "case-1c636acd76dc6af9": "editorial-866bd905851e4ae4",
       "case-88982690711cb588": "editorial-b26792d457e54189",
-      "case-0f7735f838321ee6": "editorial-e0ae06e5c4d3468b",
       "case-009448c9644bb9a1": "editorial-bc49571ad7284bbe",
       "case-6618dffab7cf89c0": "editorial-55c17301b9c64661",
       "case-702cf2b2336c1439": "editorial-fa2f861ae92a4f33",
       "case-a6483fa8f15cdb49": "editorial-e09a5579ffbd4f19",
-      "case-1ac4d4e7a3cf0e9a": "editorial-6205fd99751142a0",
-      "case-8a2cba238f276101": "editorial-d881665f55b94059"
+      "case-1ac4d4e7a3cf0e9a": "editorial-6205fd99751142a0"
     },
     "primary_collection": "Washington and Pacific Northwest",
     "external_collection": "Transferable Examples from Other Regions",
@@ -3081,7 +3084,7 @@
       ]
     },
     {
-      "title": "A ADOÇÃO DO SISTEMA GRADE E DAS PERGUNTAS PICO NAS DIRETRIZES DA SOCIEDADE BRASILEIRA DE CARDIOLOGIA: REDEFINIÇÃO DE DIRETRIZES E POSICIONAMENTOS E A PADRONIZAÇÃO DO NÍVEL DE EVIDÊNCIA NA MEDICINA BASEADA EM EVIDÊNCIAS BRASILEIRA",
+      "title": "Organizational resilience in Puerto Rico's primary care clinics: absorbing, adapting, and transforming under stress",
       "summary": "",
       "location": "",
       "region": "",
@@ -3098,7 +3101,7 @@
       "transferability": "",
       "limitations": "No measured outcome may be claimed unless the original source reports it.",
       "last_source_checked_at": "",
-      "source_url": "https://revistageo.com.br/revgeo/article/view/3000",
+      "source_url": "https://www.frontiersin.org/journals/health-services/articles/10.3389/frhs.2026.1886937/full",
       "image_url": "",
       "image_attribution": "",
       "image_focal_point": "center",
@@ -3106,8 +3109,8 @@
       "partners": [
         "Not yet recorded"
       ],
-      "public_id": "case-b50247c686a4",
-      "slug": "case-b50247c686a4",
+      "public_id": "case-b1bd5683b57a",
+      "slug": "case-b1bd5683b57a",
       "collection": "Transferable Examples from Other Regions",
       "reported_outcomes": [],
       "region_tags": [
@@ -3130,14 +3133,14 @@
       "preview_target": false,
       "latitude": null,
       "longitude": null,
-      "location_precision": "UNRESOLVED",
-      "coordinate_status": "NEEDS_LOCATION_REVIEW",
       "primary_hazard": "OTHER_ADAPTATION",
-      "map_visible": true,
+      "location_precision": "SITE_CENTROID",
+      "coordinate_status": "NEEDS_LOCATION_REVIEW",
+      "map_visible": false,
       "hazard_label": "Other adaptation",
       "hazard_color": "#7A8492",
       "display_order": 27,
-      "asset_filename": "case-b50247c686a4-island-sea-level.svg",
+      "asset_filename": "case-b1bd5683b57a-island-sea-level.svg",
       "asset_alt": "Illustration of a shoreline planning landscape with tidal water and protected road access.",
       "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
       "asset_license": "PROJECT_GENERATED",
@@ -3145,6 +3148,262 @@
       "asset_height": 900,
       "asset_focal_point": "center",
       "asset_checksum": "d268a3615b591754fd7c70c78dadd8233d26feb7142661b53c17019bc99921cb",
+      "asset_variants": []
+    },
+    {
+      "title": "DNR Planning Prescribed Burn on 938 Acres in Yakima County",
+      "hazards": [
+        "COMPOUND_MULTI_HAZARD"
+      ],
+      "themes": [
+        "GOVERNANCE_PLANNING"
+      ],
+      "limitations": "No measured outcome may be claimed unless the original source reports it.",
+      "source_url": "https://dnr.wa.gov/news/2026/dnr-planning-prescribed-burn-938-acres-yakima-county",
+      "image_focal_point": "center",
+      "partners": [
+        "Not yet recorded"
+      ],
+      "public_id": "case-ff03cf75659e",
+      "slug": "case-ff03cf75659e",
+      "collection": "Transferable Examples from Other Regions",
+      "last_source_checked_at": "",
+      "summary": "",
+      "adaptation_action": "",
+      "reported_outcomes": "The current source record does not provide a verified outcome statement for public use.",
+      "transferability": "No measured outcome may be claimed unless the original source reports it.",
+      "climate_mechanism": "The current source record does not provide a concise climate-mechanism statement.",
+      "region_tags": [
+        "UNITED_STATES_OTHER"
+      ],
+      "location_types": [
+        "REGIONAL"
+      ],
+      "geographic_scale": "CITY_COUNTY",
+      "adaptation_strategies": [
+        "ASSESSMENT_PLANNING"
+      ],
+      "implementation_stage": "Planning and design",
+      "lead_organization_types": [
+        "MULTI_PARTNER"
+      ],
+      "partner_organization_types": [],
+      "public_copy_version": "public-copy-draft-v2",
+      "taxonomy_version": "case-taxonomy-v1",
+      "claim_status": "NOT_EVALUATED",
+      "preview_target": false,
+      "latitude": null,
+      "longitude": null,
+      "primary_hazard": "OTHER_ADAPTATION",
+      "location_precision": "SITE_CENTROID",
+      "coordinate_status": "NEEDS_LOCATION_REVIEW",
+      "map_visible": false,
+      "hazard_label": "Other adaptation",
+      "hazard_color": "#7A8492",
+      "display_order": 28,
+      "asset_filename": "case-ff03cf75659e-yakama-riparian.svg",
+      "asset_alt": "Illustration of a restored riparian landscape with native vegetation and water.",
+      "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
+      "asset_license": "PROJECT_GENERATED",
+      "asset_width": 1600,
+      "asset_height": 900,
+      "asset_focal_point": "center",
+      "asset_checksum": "82c691ee78c1c6df6126a422a14a597ae3a5244ba2d57e101508a8fe1a2850ed",
+      "asset_variants": []
+    },
+    {
+      "title": "Wildfires Are The Earth Way Of Telling Us To Change Our Behavior Or Else",
+      "hazards": [
+        "WILDFIRE_SMOKE"
+      ],
+      "themes": [
+        "FORESTS_FIRE"
+      ],
+      "limitations": "No measured outcome may be claimed unless the original source reports it.",
+      "source_url": "https://cleantechnica.com/2026/08/03/wildfires-are-the-earths-way-of-telling-us-to-change-our-behavior-or-else",
+      "image_focal_point": "center",
+      "partners": [
+        "Not yet recorded"
+      ],
+      "public_id": "case-bcea2b291dd5",
+      "slug": "case-bcea2b291dd5",
+      "collection": "Transferable Examples from Other Regions",
+      "last_source_checked_at": "",
+      "summary": "",
+      "adaptation_action": "",
+      "reported_outcomes": "The current source record does not provide a verified outcome statement for public use.",
+      "transferability": "No measured outcome may be claimed unless the original source reports it.",
+      "climate_mechanism": "The current source record does not provide a concise climate-mechanism statement.",
+      "region_tags": [
+        "UNITED_STATES_OTHER"
+      ],
+      "location_types": [
+        "REGIONAL"
+      ],
+      "geographic_scale": "REGIONAL",
+      "adaptation_strategies": [
+        "ASSESSMENT_PLANNING"
+      ],
+      "implementation_stage": "Planning and design",
+      "lead_organization_types": [
+        "MULTI_PARTNER"
+      ],
+      "partner_organization_types": [],
+      "public_copy_version": "public-copy-draft-v2",
+      "taxonomy_version": "case-taxonomy-v1",
+      "claim_status": "NOT_EVALUATED",
+      "preview_target": false,
+      "latitude": null,
+      "longitude": null,
+      "primary_hazard": "OTHER_ADAPTATION",
+      "location_precision": "SITE_CENTROID",
+      "coordinate_status": "NEEDS_LOCATION_REVIEW",
+      "map_visible": false,
+      "hazard_label": "Other adaptation",
+      "hazard_color": "#7A8492",
+      "display_order": 29,
+      "asset_filename": "case-bcea2b291dd5-oasis-schoolyard.svg",
+      "asset_alt": "Illustration of a schoolyard cooling landscape with trees, shade, and permeable ground.",
+      "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
+      "asset_license": "PROJECT_GENERATED",
+      "asset_width": 1600,
+      "asset_height": 900,
+      "asset_focal_point": "center",
+      "asset_checksum": "4436b7fa863e2c34dcea98fadb83a3b055d590d679c96119511df8fb8183531a",
+      "asset_variants": []
+    },
+    {
+      "title": "Supplementary Table 7 from Impact of Comorbidities on Survival among American Indian and Alaska Native People with Cancer: A Surveillance, Epidemiology, and End Results–Medicare Study",
+      "summary": "",
+      "location": "",
+      "region": "",
+      "hazards": [
+        "COMPOUND_MULTI_HAZARD"
+      ],
+      "themes": [
+        "GOVERNANCE_PLANNING"
+      ],
+      "climate_mechanism": "",
+      "adaptation_action": "",
+      "implementation_stage": "Planning and design",
+      "outcomes": [],
+      "transferability": "",
+      "limitations": "No measured outcome may be claimed unless the original source reports it.",
+      "last_source_checked_at": "",
+      "source_url": "https://aacr.figshare.com/articles/journal_contribution/Supplementary_Table_7_from_Impact_of_Comorbidities_on_Survival_among_American_Indian_and_Alaska_Native_People_with_Cancer_A_Surveillance_Epidemiology_and_End_Results_Medicare_Study/33143558/1",
+      "image_url": "",
+      "image_attribution": "",
+      "image_focal_point": "center",
+      "lead_organization": "",
+      "partners": [
+        "Not yet recorded"
+      ],
+      "public_id": "case-a78fa8fbee99",
+      "slug": "case-a78fa8fbee99",
+      "collection": "Transferable Examples from Other Regions",
+      "reported_outcomes": [],
+      "region_tags": [
+        "UNITED_STATES_OTHER"
+      ],
+      "location_types": [
+        "REGIONAL"
+      ],
+      "geographic_scale": "REGIONAL",
+      "adaptation_strategies": [
+        "ASSESSMENT_PLANNING"
+      ],
+      "lead_organization_types": [
+        "MULTI_PARTNER"
+      ],
+      "partner_organization_types": [],
+      "public_copy_version": "public-copy-draft-v2",
+      "taxonomy_version": "case-taxonomy-v1",
+      "claim_status": "NOT_EVALUATED",
+      "preview_target": false,
+      "latitude": null,
+      "longitude": null,
+      "primary_hazard": "OTHER_ADAPTATION",
+      "location_precision": "UNRESOLVED",
+      "coordinate_status": "NEEDS_LOCATION_REVIEW",
+      "map_visible": false,
+      "hazard_label": "Other adaptation",
+      "hazard_color": "#7A8492",
+      "display_order": 30,
+      "asset_filename": "case-a78fa8fbee99-powell-shoreline.svg",
+      "asset_alt": "Illustration of a restored shoreline with planted edge protection and waves.",
+      "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
+      "asset_license": "PROJECT_GENERATED",
+      "asset_width": 1600,
+      "asset_height": 900,
+      "asset_focal_point": "center",
+      "asset_checksum": "d5cd8e22cd958beef193ab0a8c2df65c4c34cd71e337c693b1acd065317f7d25",
+      "asset_variants": []
+    },
+    {
+      "title": "DNR Planning Prescribed Burn on 717 Acres in Yakima County",
+      "summary": "",
+      "location": "",
+      "region": "",
+      "hazards": [
+        "COMPOUND_MULTI_HAZARD"
+      ],
+      "themes": [
+        "GOVERNANCE_PLANNING"
+      ],
+      "climate_mechanism": "",
+      "adaptation_action": "",
+      "implementation_stage": "Planning and design",
+      "outcomes": [],
+      "transferability": "",
+      "limitations": "No measured outcome may be claimed unless the original source reports it.",
+      "last_source_checked_at": "",
+      "source_url": "https://dnr.wa.gov/news/2026/dnr-planning-prescribed-burn-717-acres-yakima-county",
+      "image_url": "",
+      "image_attribution": "",
+      "image_focal_point": "center",
+      "lead_organization": "",
+      "partners": [
+        "Not yet recorded"
+      ],
+      "public_id": "case-9ab887e6221d",
+      "slug": "case-9ab887e6221d",
+      "collection": "Transferable Examples from Other Regions",
+      "reported_outcomes": [],
+      "region_tags": [
+        "UNITED_STATES_OTHER"
+      ],
+      "location_types": [
+        "REGIONAL"
+      ],
+      "geographic_scale": "CITY_COUNTY",
+      "adaptation_strategies": [
+        "ASSESSMENT_PLANNING"
+      ],
+      "lead_organization_types": [
+        "MULTI_PARTNER"
+      ],
+      "partner_organization_types": [],
+      "public_copy_version": "public-copy-draft-v2",
+      "taxonomy_version": "case-taxonomy-v1",
+      "claim_status": "NOT_EVALUATED",
+      "preview_target": false,
+      "latitude": null,
+      "longitude": null,
+      "primary_hazard": "OTHER_ADAPTATION",
+      "location_precision": "UNRESOLVED",
+      "coordinate_status": "NEEDS_LOCATION_REVIEW",
+      "map_visible": false,
+      "hazard_label": "Other adaptation",
+      "hazard_color": "#7A8492",
+      "display_order": 31,
+      "asset_filename": "case-9ab887e6221d-portland-depaving.svg",
+      "asset_alt": "Illustration of a depaved neighborhood street with trees and rain gardens.",
+      "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
+      "asset_license": "PROJECT_GENERATED",
+      "asset_width": 1600,
+      "asset_height": 900,
+      "asset_focal_point": "center",
+      "asset_checksum": "f2f1dcffb6615ef795a175ee9a9e3ecb18748ab829b7c49c475dd701fd2cee0a",
       "asset_variants": []
     },
     {
@@ -3197,21 +3456,155 @@
       "preview_target": false,
       "latitude": null,
       "longitude": null,
+      "primary_hazard": "OTHER_ADAPTATION",
       "location_precision": "UNRESOLVED",
       "coordinate_status": "NEEDS_LOCATION_REVIEW",
-      "primary_hazard": "OTHER_ADAPTATION",
-      "map_visible": true,
+      "map_visible": false,
       "hazard_label": "Other adaptation",
       "hazard_color": "#7A8492",
-      "display_order": 28,
-      "asset_filename": "case-b4c7ff13c6f3-yakama-riparian.svg",
-      "asset_alt": "Illustration of a restored riparian landscape with native vegetation and water.",
+      "display_order": 32,
+      "asset_filename": "case-b4c7ff13c6f3-invasive-plants.svg",
+      "asset_alt": "Illustration of managed vegetation and restored native habitat.",
       "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
       "asset_license": "PROJECT_GENERATED",
       "asset_width": 1600,
       "asset_height": 900,
       "asset_focal_point": "center",
-      "asset_checksum": "82c691ee78c1c6df6126a422a14a597ae3a5244ba2d57e101508a8fe1a2850ed",
+      "asset_checksum": "6875629b9bb3a20620f5f430093d80af149470b9181120cc708b004dccbdbe93",
+      "asset_variants": []
+    },
+    {
+      "title": "Rescission of Conservation and Landscape Health Rule",
+      "summary": "",
+      "location": "",
+      "region": "",
+      "hazards": [
+        "COMPOUND_MULTI_HAZARD"
+      ],
+      "themes": [
+        "PUBLIC_HEALTH"
+      ],
+      "climate_mechanism": "",
+      "adaptation_action": "",
+      "implementation_stage": "Planning and design",
+      "outcomes": [],
+      "transferability": "",
+      "limitations": "No measured outcome may be claimed unless the original source reports it.",
+      "last_source_checked_at": "",
+      "source_url": "https://unblock.federalregister.gov/",
+      "image_url": "",
+      "image_attribution": "",
+      "image_focal_point": "center",
+      "lead_organization": "",
+      "partners": [
+        "Not yet recorded"
+      ],
+      "public_id": "case-18c5f68016a2",
+      "slug": "case-18c5f68016a2",
+      "collection": "Transferable Examples from Other Regions",
+      "reported_outcomes": [],
+      "region_tags": [
+        "UNITED_STATES_OTHER"
+      ],
+      "location_types": [
+        "REGIONAL"
+      ],
+      "geographic_scale": "REGIONAL",
+      "adaptation_strategies": [
+        "ASSESSMENT_PLANNING"
+      ],
+      "lead_organization_types": [
+        "MULTI_PARTNER"
+      ],
+      "partner_organization_types": [],
+      "public_copy_version": "public-copy-draft-v2",
+      "taxonomy_version": "case-taxonomy-v1",
+      "claim_status": "NOT_EVALUATED",
+      "preview_target": false,
+      "latitude": null,
+      "longitude": null,
+      "primary_hazard": "OTHER_ADAPTATION",
+      "location_precision": "UNRESOLVED",
+      "coordinate_status": "NEEDS_LOCATION_REVIEW",
+      "map_visible": false,
+      "hazard_label": "Other adaptation",
+      "hazard_color": "#7A8492",
+      "display_order": 33,
+      "asset_filename": "case-18c5f68016a2-wildfire-strategy.svg",
+      "asset_alt": "Illustration of a wildfire-resilient utility and forest-edge landscape.",
+      "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
+      "asset_license": "PROJECT_GENERATED",
+      "asset_width": 1600,
+      "asset_height": 900,
+      "asset_focal_point": "center",
+      "asset_checksum": "9066c58636525f53585278cfe0de16b2a4b314b29666df3da281cd1a6dee8092",
+      "asset_variants": []
+    },
+    {
+      "title": "A ADOÇÃO DO SISTEMA GRADE E DAS PERGUNTAS PICO NAS DIRETRIZES DA SOCIEDADE BRASILEIRA DE CARDIOLOGIA: REDEFINIÇÃO DE DIRETRIZES E POSICIONAMENTOS E A PADRONIZAÇÃO DO NÍVEL DE EVIDÊNCIA NA MEDICINA BASEADA EM EVIDÊNCIAS BRASILEIRA",
+      "summary": "",
+      "location": "",
+      "region": "",
+      "hazards": [
+        "COMPOUND_MULTI_HAZARD"
+      ],
+      "themes": [
+        "GOVERNANCE_PLANNING"
+      ],
+      "climate_mechanism": "",
+      "adaptation_action": "",
+      "implementation_stage": "Planning and design",
+      "outcomes": [],
+      "transferability": "",
+      "limitations": "No measured outcome may be claimed unless the original source reports it.",
+      "last_source_checked_at": "",
+      "source_url": "https://revistageo.com.br/revgeo/article/view/3000",
+      "image_url": "",
+      "image_attribution": "",
+      "image_focal_point": "center",
+      "lead_organization": "",
+      "partners": [
+        "Not yet recorded"
+      ],
+      "public_id": "case-b50247c686a4",
+      "slug": "case-b50247c686a4",
+      "collection": "Transferable Examples from Other Regions",
+      "reported_outcomes": [],
+      "region_tags": [
+        "UNITED_STATES_OTHER"
+      ],
+      "location_types": [
+        "REGIONAL"
+      ],
+      "geographic_scale": "REGIONAL",
+      "adaptation_strategies": [
+        "ASSESSMENT_PLANNING"
+      ],
+      "lead_organization_types": [
+        "MULTI_PARTNER"
+      ],
+      "partner_organization_types": [],
+      "public_copy_version": "public-copy-draft-v2",
+      "taxonomy_version": "case-taxonomy-v1",
+      "claim_status": "NOT_EVALUATED",
+      "preview_target": false,
+      "latitude": null,
+      "longitude": null,
+      "primary_hazard": "OTHER_ADAPTATION",
+      "location_precision": "UNRESOLVED",
+      "coordinate_status": "NEEDS_LOCATION_REVIEW",
+      "map_visible": false,
+      "hazard_label": "Other adaptation",
+      "hazard_color": "#7A8492",
+      "display_order": 34,
+      "asset_filename": "case-b50247c686a4-drought-matrix.svg",
+      "asset_alt": "Illustration of a water-reservoir landscape prepared for drought conditions.",
+      "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
+      "asset_license": "PROJECT_GENERATED",
+      "asset_width": 1600,
+      "asset_height": 900,
+      "asset_focal_point": "center",
+      "asset_checksum": "8dff327be7b21d0028e9dd06df39ede4b8092111bae899f4b96cfbf3816621ea",
       "asset_variants": []
     },
     {
@@ -3270,404 +3663,8 @@
       "map_visible": true,
       "hazard_label": "Other adaptation",
       "hazard_color": "#7A8492",
-      "display_order": 29,
-      "asset_filename": "case-55cf1bf6c1ce-oasis-schoolyard.svg",
-      "asset_alt": "Illustration of a schoolyard cooling landscape with trees, shade, and permeable ground.",
-      "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
-      "asset_license": "PROJECT_GENERATED",
-      "asset_width": 1600,
-      "asset_height": 900,
-      "asset_focal_point": "center",
-      "asset_checksum": "4436b7fa863e2c34dcea98fadb83a3b055d590d679c96119511df8fb8183531a",
-      "asset_variants": []
-    },
-    {
-      "title": "DNR Planning Prescribed Burn on 717 Acres in Yakima County",
-      "summary": "",
-      "location": "",
-      "region": "",
-      "hazards": [
-        "COMPOUND_MULTI_HAZARD"
-      ],
-      "themes": [
-        "GOVERNANCE_PLANNING"
-      ],
-      "climate_mechanism": "",
-      "adaptation_action": "",
-      "implementation_stage": "Planning and design",
-      "outcomes": [],
-      "transferability": "",
-      "limitations": "No measured outcome may be claimed unless the original source reports it.",
-      "last_source_checked_at": "",
-      "source_url": "https://dnr.wa.gov/news/2026/dnr-planning-prescribed-burn-717-acres-yakima-county",
-      "image_url": "",
-      "image_attribution": "",
-      "image_focal_point": "center",
-      "lead_organization": "",
-      "partners": [
-        "Not yet recorded"
-      ],
-      "public_id": "case-9ab887e6221d",
-      "slug": "case-9ab887e6221d",
-      "collection": "Transferable Examples from Other Regions",
-      "reported_outcomes": [],
-      "region_tags": [
-        "UNITED_STATES_OTHER"
-      ],
-      "location_types": [
-        "REGIONAL"
-      ],
-      "geographic_scale": "CITY_COUNTY",
-      "adaptation_strategies": [
-        "ASSESSMENT_PLANNING"
-      ],
-      "lead_organization_types": [
-        "MULTI_PARTNER"
-      ],
-      "partner_organization_types": [],
-      "public_copy_version": "public-copy-draft-v2",
-      "taxonomy_version": "case-taxonomy-v1",
-      "claim_status": "NOT_EVALUATED",
-      "preview_target": false,
-      "latitude": null,
-      "longitude": null,
-      "location_precision": "UNRESOLVED",
-      "coordinate_status": "NEEDS_LOCATION_REVIEW",
-      "primary_hazard": "OTHER_ADAPTATION",
-      "map_visible": true,
-      "hazard_label": "Other adaptation",
-      "hazard_color": "#7A8492",
-      "display_order": 30,
-      "asset_filename": "case-9ab887e6221d-powell-shoreline.svg",
-      "asset_alt": "Illustration of a restored shoreline with planted edge protection and waves.",
-      "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
-      "asset_license": "PROJECT_GENERATED",
-      "asset_width": 1600,
-      "asset_height": 900,
-      "asset_focal_point": "center",
-      "asset_checksum": "d5cd8e22cd958beef193ab0a8c2df65c4c34cd71e337c693b1acd065317f7d25",
-      "asset_variants": []
-    },
-    {
-      "title": "DNR Planning Prescribed Burn on 938 Acres in Yakima County",
-      "hazards": [
-        "COMPOUND_MULTI_HAZARD"
-      ],
-      "themes": [
-        "GOVERNANCE_PLANNING"
-      ],
-      "limitations": "No measured outcome may be claimed unless the original source reports it.",
-      "source_url": "https://dnr.wa.gov/news/2026/dnr-planning-prescribed-burn-938-acres-yakima-county",
-      "image_focal_point": "center",
-      "partners": [
-        "Not yet recorded"
-      ],
-      "public_id": "case-ff03cf75659e",
-      "slug": "case-ff03cf75659e",
-      "collection": "Transferable Examples from Other Regions",
-      "last_source_checked_at": "",
-      "summary": "",
-      "adaptation_action": "",
-      "reported_outcomes": "The current source record does not provide a verified outcome statement for public use.",
-      "transferability": "No measured outcome may be claimed unless the original source reports it.",
-      "climate_mechanism": "The current source record does not provide a concise climate-mechanism statement.",
-      "region_tags": [
-        "UNITED_STATES_OTHER"
-      ],
-      "location_types": [
-        "REGIONAL"
-      ],
-      "geographic_scale": "CITY_COUNTY",
-      "adaptation_strategies": [
-        "ASSESSMENT_PLANNING"
-      ],
-      "implementation_stage": "Planning and design",
-      "lead_organization_types": [
-        "MULTI_PARTNER"
-      ],
-      "partner_organization_types": [],
-      "public_copy_version": "public-copy-draft-v2",
-      "taxonomy_version": "case-taxonomy-v1",
-      "claim_status": "NOT_EVALUATED",
-      "preview_target": false,
-      "latitude": null,
-      "longitude": null,
-      "location_precision": "UNRESOLVED",
-      "coordinate_status": "NEEDS_LOCATION_REVIEW",
-      "primary_hazard": "OTHER_ADAPTATION",
-      "map_visible": true,
-      "hazard_label": "Other adaptation",
-      "hazard_color": "#7A8492",
-      "display_order": 31,
-      "asset_filename": "case-ff03cf75659e-portland-depaving.svg",
-      "asset_alt": "Illustration of a depaved neighborhood street with trees and rain gardens.",
-      "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
-      "asset_license": "PROJECT_GENERATED",
-      "asset_width": 1600,
-      "asset_height": 900,
-      "asset_focal_point": "center",
-      "asset_checksum": "f2f1dcffb6615ef795a175ee9a9e3ecb18748ab829b7c49c475dd701fd2cee0a",
-      "asset_variants": []
-    },
-    {
-      "title": "Organizational resilience in Puerto Rico's primary care clinics: absorbing, adapting, and transforming under stress",
-      "summary": "",
-      "location": "",
-      "region": "",
-      "hazards": [
-        "COMPOUND_MULTI_HAZARD"
-      ],
-      "themes": [
-        "GOVERNANCE_PLANNING"
-      ],
-      "climate_mechanism": "",
-      "adaptation_action": "",
-      "implementation_stage": "Planning and design",
-      "outcomes": [],
-      "transferability": "",
-      "limitations": "No measured outcome may be claimed unless the original source reports it.",
-      "last_source_checked_at": "",
-      "source_url": "https://www.frontiersin.org/journals/health-services/articles/10.3389/frhs.2026.1886937/full",
-      "image_url": "",
-      "image_attribution": "",
-      "image_focal_point": "center",
-      "lead_organization": "",
-      "partners": [
-        "Not yet recorded"
-      ],
-      "public_id": "case-b1bd5683b57a",
-      "slug": "case-b1bd5683b57a",
-      "collection": "Transferable Examples from Other Regions",
-      "reported_outcomes": [],
-      "region_tags": [
-        "UNITED_STATES_OTHER"
-      ],
-      "location_types": [
-        "REGIONAL"
-      ],
-      "geographic_scale": "REGIONAL",
-      "adaptation_strategies": [
-        "ASSESSMENT_PLANNING"
-      ],
-      "lead_organization_types": [
-        "MULTI_PARTNER"
-      ],
-      "partner_organization_types": [],
-      "public_copy_version": "public-copy-draft-v2",
-      "taxonomy_version": "case-taxonomy-v1",
-      "claim_status": "NOT_EVALUATED",
-      "preview_target": false,
-      "latitude": null,
-      "longitude": null,
-      "location_precision": "UNRESOLVED",
-      "coordinate_status": "NEEDS_LOCATION_REVIEW",
-      "primary_hazard": "OTHER_ADAPTATION",
-      "map_visible": true,
-      "hazard_label": "Other adaptation",
-      "hazard_color": "#7A8492",
-      "display_order": 32,
-      "asset_filename": "case-b1bd5683b57a-invasive-plants.svg",
-      "asset_alt": "Illustration of managed vegetation and restored native habitat.",
-      "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
-      "asset_license": "PROJECT_GENERATED",
-      "asset_width": 1600,
-      "asset_height": 900,
-      "asset_focal_point": "center",
-      "asset_checksum": "6875629b9bb3a20620f5f430093d80af149470b9181120cc708b004dccbdbe93",
-      "asset_variants": []
-    },
-    {
-      "title": "Progressive Multi-level Distillation for Domain Adaptive Object Detection",
-      "summary": "",
-      "location": "",
-      "region": "",
-      "hazards": [
-        "COMPOUND_MULTI_HAZARD"
-      ],
-      "themes": [
-        "GOVERNANCE_PLANNING"
-      ],
-      "climate_mechanism": "",
-      "adaptation_action": "",
-      "implementation_stage": "Planning and design",
-      "outcomes": [],
-      "transferability": "",
-      "limitations": "No measured outcome may be claimed unless the original source reports it.",
-      "last_source_checked_at": "",
-      "source_url": "https://link.springer.com/chapter/10.1007/978-3-032-31673-8_19?error=cookies_not_supported&code=7ee11185-1335-44b5-ac40-f1f91414c0b6",
-      "image_url": "",
-      "image_attribution": "",
-      "image_focal_point": "center",
-      "lead_organization": "",
-      "partners": [
-        "Not yet recorded"
-      ],
-      "public_id": "case-31cdf14c2eb6",
-      "slug": "case-31cdf14c2eb6",
-      "collection": "Transferable Examples from Other Regions",
-      "reported_outcomes": [],
-      "region_tags": [
-        "UNITED_STATES_OTHER"
-      ],
-      "location_types": [
-        "REGIONAL"
-      ],
-      "geographic_scale": "REGIONAL",
-      "adaptation_strategies": [
-        "ASSESSMENT_PLANNING"
-      ],
-      "lead_organization_types": [
-        "MULTI_PARTNER"
-      ],
-      "partner_organization_types": [],
-      "public_copy_version": "public-copy-draft-v2",
-      "taxonomy_version": "case-taxonomy-v1",
-      "claim_status": "NOT_EVALUATED",
-      "preview_target": false,
-      "latitude": null,
-      "longitude": null,
-      "location_precision": "UNRESOLVED",
-      "coordinate_status": "NEEDS_LOCATION_REVIEW",
-      "primary_hazard": "OTHER_ADAPTATION",
-      "map_visible": true,
-      "hazard_label": "Other adaptation",
-      "hazard_color": "#7A8492",
-      "display_order": 33,
-      "asset_filename": "case-31cdf14c2eb6-wildfire-strategy.svg",
-      "asset_alt": "Illustration of a wildfire-resilient utility and forest-edge landscape.",
-      "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
-      "asset_license": "PROJECT_GENERATED",
-      "asset_width": 1600,
-      "asset_height": 900,
-      "asset_focal_point": "center",
-      "asset_checksum": "9066c58636525f53585278cfe0de16b2a4b314b29666df3da281cd1a6dee8092",
-      "asset_variants": []
-    },
-    {
-      "title": "Rescission of Conservation and Landscape Health Rule",
-      "summary": "",
-      "location": "",
-      "region": "",
-      "hazards": [
-        "COMPOUND_MULTI_HAZARD"
-      ],
-      "themes": [
-        "PUBLIC_HEALTH"
-      ],
-      "climate_mechanism": "",
-      "adaptation_action": "",
-      "implementation_stage": "Planning and design",
-      "outcomes": [],
-      "transferability": "",
-      "limitations": "No measured outcome may be claimed unless the original source reports it.",
-      "last_source_checked_at": "",
-      "source_url": "https://unblock.federalregister.gov/",
-      "image_url": "",
-      "image_attribution": "",
-      "image_focal_point": "center",
-      "lead_organization": "",
-      "partners": [
-        "Not yet recorded"
-      ],
-      "public_id": "case-18c5f68016a2",
-      "slug": "case-18c5f68016a2",
-      "collection": "Transferable Examples from Other Regions",
-      "reported_outcomes": [],
-      "region_tags": [
-        "UNITED_STATES_OTHER"
-      ],
-      "location_types": [
-        "REGIONAL"
-      ],
-      "geographic_scale": "REGIONAL",
-      "adaptation_strategies": [
-        "ASSESSMENT_PLANNING"
-      ],
-      "lead_organization_types": [
-        "MULTI_PARTNER"
-      ],
-      "partner_organization_types": [],
-      "public_copy_version": "public-copy-draft-v2",
-      "taxonomy_version": "case-taxonomy-v1",
-      "claim_status": "NOT_EVALUATED",
-      "preview_target": false,
-      "latitude": null,
-      "longitude": null,
-      "location_precision": "UNRESOLVED",
-      "coordinate_status": "NEEDS_LOCATION_REVIEW",
-      "primary_hazard": "OTHER_ADAPTATION",
-      "map_visible": true,
-      "hazard_label": "Other adaptation",
-      "hazard_color": "#7A8492",
-      "display_order": 34,
-      "asset_filename": "case-18c5f68016a2-drought-matrix.svg",
-      "asset_alt": "Illustration of a water-reservoir landscape prepared for drought conditions.",
-      "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
-      "asset_license": "PROJECT_GENERATED",
-      "asset_width": 1600,
-      "asset_height": 900,
-      "asset_focal_point": "center",
-      "asset_checksum": "8dff327be7b21d0028e9dd06df39ede4b8092111bae899f4b96cfbf3816621ea",
-      "asset_variants": []
-    },
-    {
-      "title": "Supplementary Table 7 from Impact of Comorbidities on Survival among American Indian and Alaska Native People with Cancer: A Surveillance, Epidemiology, and End Results–Medicare Study",
-      "summary": "",
-      "location": "",
-      "region": "",
-      "hazards": [
-        "COMPOUND_MULTI_HAZARD"
-      ],
-      "themes": [
-        "GOVERNANCE_PLANNING"
-      ],
-      "climate_mechanism": "",
-      "adaptation_action": "",
-      "implementation_stage": "Planning and design",
-      "outcomes": [],
-      "transferability": "",
-      "limitations": "No measured outcome may be claimed unless the original source reports it.",
-      "last_source_checked_at": "",
-      "source_url": "https://aacr.figshare.com/articles/journal_contribution/Supplementary_Table_7_from_Impact_of_Comorbidities_on_Survival_among_American_Indian_and_Alaska_Native_People_with_Cancer_A_Surveillance_Epidemiology_and_End_Results_Medicare_Study/33143558/1",
-      "image_url": "",
-      "image_attribution": "",
-      "image_focal_point": "center",
-      "lead_organization": "",
-      "partners": [
-        "Not yet recorded"
-      ],
-      "public_id": "case-a78fa8fbee99",
-      "slug": "case-a78fa8fbee99",
-      "collection": "Transferable Examples from Other Regions",
-      "reported_outcomes": [],
-      "region_tags": [
-        "UNITED_STATES_OTHER"
-      ],
-      "location_types": [
-        "REGIONAL"
-      ],
-      "geographic_scale": "REGIONAL",
-      "adaptation_strategies": [
-        "ASSESSMENT_PLANNING"
-      ],
-      "lead_organization_types": [
-        "MULTI_PARTNER"
-      ],
-      "partner_organization_types": [],
-      "public_copy_version": "public-copy-draft-v2",
-      "taxonomy_version": "case-taxonomy-v1",
-      "claim_status": "NOT_EVALUATED",
-      "preview_target": false,
-      "latitude": null,
-      "longitude": null,
-      "location_precision": "UNRESOLVED",
-      "coordinate_status": "NEEDS_LOCATION_REVIEW",
-      "primary_hazard": "OTHER_ADAPTATION",
-      "map_visible": true,
-      "hazard_label": "Other adaptation",
-      "hazard_color": "#7A8492",
       "display_order": 35,
-      "asset_filename": "case-a78fa8fbee99-fire-warning.svg",
+      "asset_filename": "case-55cf1bf6c1ce-fire-warning.svg",
       "asset_alt": "Illustration of a community wildfire warning landscape with a visible alert beacon.",
       "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
       "asset_license": "PROJECT_GENERATED",
@@ -3675,67 +3672,6 @@
       "asset_height": 900,
       "asset_focal_point": "center",
       "asset_checksum": "678f3276a1120e8031f16572074e66c00ed852627c7db2dd26a14582b3919323",
-      "asset_variants": []
-    },
-    {
-      "title": "Wildfires Are The Earth Way Of Telling Us To Change Our Behavior Or Else",
-      "hazards": [
-        "WILDFIRE_SMOKE"
-      ],
-      "themes": [
-        "FORESTS_FIRE"
-      ],
-      "limitations": "No measured outcome may be claimed unless the original source reports it.",
-      "source_url": "https://cleantechnica.com/2026/08/03/wildfires-are-the-earths-way-of-telling-us-to-change-our-behavior-or-else",
-      "image_focal_point": "center",
-      "partners": [
-        "Not yet recorded"
-      ],
-      "public_id": "case-bcea2b291dd5",
-      "slug": "case-bcea2b291dd5",
-      "collection": "Transferable Examples from Other Regions",
-      "last_source_checked_at": "",
-      "summary": "",
-      "adaptation_action": "",
-      "reported_outcomes": "The current source record does not provide a verified outcome statement for public use.",
-      "transferability": "No measured outcome may be claimed unless the original source reports it.",
-      "climate_mechanism": "The current source record does not provide a concise climate-mechanism statement.",
-      "region_tags": [
-        "UNITED_STATES_OTHER"
-      ],
-      "location_types": [
-        "REGIONAL"
-      ],
-      "geographic_scale": "REGIONAL",
-      "adaptation_strategies": [
-        "ASSESSMENT_PLANNING"
-      ],
-      "implementation_stage": "Planning and design",
-      "lead_organization_types": [
-        "MULTI_PARTNER"
-      ],
-      "partner_organization_types": [],
-      "public_copy_version": "public-copy-draft-v2",
-      "taxonomy_version": "case-taxonomy-v1",
-      "claim_status": "NOT_EVALUATED",
-      "preview_target": false,
-      "latitude": null,
-      "longitude": null,
-      "location_precision": "UNRESOLVED",
-      "coordinate_status": "NEEDS_LOCATION_REVIEW",
-      "primary_hazard": "OTHER_ADAPTATION",
-      "map_visible": true,
-      "hazard_label": "Other adaptation",
-      "hazard_color": "#7A8492",
-      "display_order": 36,
-      "asset_filename": "case-bcea2b291dd5-paris-cooling.svg",
-      "asset_alt": "Illustration of shaded urban cooling streets and planted public space.",
-      "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
-      "asset_license": "PROJECT_GENERATED",
-      "asset_width": 1600,
-      "asset_height": 900,
-      "asset_focal_point": "center",
-      "asset_checksum": "5433be3fd1ef0d2e370f2b2d84b2359202a8701141122e5ca8776033b4cad8d2",
       "asset_variants": []
     }
   ]
