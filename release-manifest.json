@@ -1,8 +1,8 @@
 {
   "schema": "car-wash-public-release-manifest-v1",
-  "snapshot_id": "staging-20261031T002932-a7c5fa2b",
-  "generated_at": "2026-10-31T00:29:32.512813+00:00",
-  "case_count": 40,
+  "snapshot_id": "staging-20261031T004353-5e0fcd31",
+  "generated_at": "2026-10-31T00:43:53.671042+00:00",
+  "case_count": 39,
   "release_profile": "INTERNAL_FULL",
   "visibility": "local-editorial-preview-only",
   "production_deployment": "DISABLED",
@@ -43,12 +43,11 @@
     "case-9ab887e6221d": "fda5620ef93833959ba16fa93685c5476350b63698e02f88764b368947aa52a4",
     "case-b4c7ff13c6f3": "cf49e3ee5e9583b6d7cc36b396d92cf896b96ea4afcceae301474dac8989cda3",
     "case-18c5f68016a2": "bd4a6479da19847d83390ea4bb990110f30b82c760326800690575719c18ea33",
-    "case-b50247c686a4": "44596d5da021cabf1fee887ffb451a84fe5773ebc1ec79d067a926a0fb44e03a",
-    "case-01abf7af7f34": "2a89390baa87e805366604d4181abc6c5fe4a469a967f26e03dc754cb89e3309",
-    "case-55cf1bf6c1ce": "c50bd1dc70cea451e36da27f1200d8bba54506eb2572c49319ef70b4d5ba39d6",
-    "case-f80799fd1655": "f07bcd6aa02cf6ebe78596c0adfa1713e30b83748795110f4c85797fbbaebd49",
     "case-2963150a8857": "8ae886a3d256b6d89ecf44eae61808c551df780e4f02b8daf762fc95e9f113d0",
-    "case-d6d1057c8746": "73701d9bffb268d0862b6f0a128e9c51fe1addd96e926663dfca8d266441148a"
+    "case-d6d1057c8746": "73701d9bffb268d0862b6f0a128e9c51fe1addd96e926663dfca8d266441148a",
+    "case-01abf7af7f34": "2a89390baa87e805366604d4181abc6c5fe4a469a967f26e03dc754cb89e3309",
+    "case-f80799fd1655": "f07bcd6aa02cf6ebe78596c0adfa1713e30b83748795110f4c85797fbbaebd49",
+    "case-55cf1bf6c1ce": "c50bd1dc70cea451e36da27f1200d8bba54506eb2572c49319ef70b4d5ba39d6"
   },
   "exact_case_versions": {
     "case-f1e1186726cc4e3e": "case-f1e1186726cc4e3e-v-f1ab81684778",
@@ -87,7 +86,6 @@
     "case-1c636acd76dc6af9": "editorial-866bd905851e4ae4",
     "case-88982690711cb588": "editorial-b26792d457e54189",
     "case-009448c9644bb9a1": "editorial-bc49571ad7284bbe",
-    "case-6618dffab7cf89c0": "editorial-55c17301b9c64661",
     "case-702cf2b2336c1439": "editorial-fa2f861ae92a4f33",
     "case-a6483fa8f15cdb49": "editorial-e09a5579ffbd4f19",
     "case-1ac4d4e7a3cf0e9a": "editorial-6205fd99751142a0"
@@ -107,10 +105,15 @@
       "action": "WITHDRAW",
       "lifecycle_event_id": "lifecycle-4eae52f9dd9145f0",
       "expected_public_version": "editorial-e0ae06e5c4d3468b"
+    },
+    "case-6618dffab7cf89c0": {
+      "action": "WITHDRAW",
+      "lifecycle_event_id": "lifecycle-3c3430b765cc4a45",
+      "expected_public_version": "editorial-55c17301b9c64661"
     }
   },
-  "site_revision_id": "site-revision-981ebcb96256e61b-7f828f77",
-  "site_revision_hash": "b350f695748243443c26f0af01d4c7b137242a9fee1456280f67c0dedbef2805",
+  "site_revision_id": "site-revision-caa779741da79dc4-1f9f717c",
+  "site_revision_hash": "d4f0ed7568b5d37bf4b714ab301546047335006c3b7ad250552f39f383dee9e7",
   "site_copy": {
     "beta_note": "Beta library. The collection and search coverage are still limited; use the original source when assessing a case.",
     "footer_heading": "CAR-WASH Case Study Repository",
@@ -204,12 +207,22 @@
   "public_index": {
     "schema": "car-wash-public-index-manifest-v1",
     "path": "public-data/manifest.json",
-    "active_public_count": 40,
+    "active_public_count": 39,
     "shard_count": 1,
     "delta": {
-      "changed_public_ids": [],
-      "removed_public_ids": [],
-      "changed_shards": []
+      "changed_public_ids": [
+        "case-01abf7af7f34",
+        "case-2963150a8857",
+        "case-55cf1bf6c1ce",
+        "case-d6d1057c8746",
+        "case-f80799fd1655"
+      ],
+      "removed_public_ids": [
+        "case-b50247c686a4"
+      ],
+      "changed_shards": [
+        "index/0000.json"
+      ]
     }
   },
   "asset_checksums": {
@@ -248,11 +261,10 @@
     "assets/case-9ab887e6221d-portland-depaving.svg": "f2f1dcffb6615ef795a175ee9a9e3ecb18748ab829b7c49c475dd701fd2cee0a",
     "assets/case-b4c7ff13c6f3-invasive-plants.svg": "6875629b9bb3a20620f5f430093d80af149470b9181120cc708b004dccbdbe93",
     "assets/case-18c5f68016a2-wildfire-strategy.svg": "9066c58636525f53585278cfe0de16b2a4b314b29666df3da281cd1a6dee8092",
-    "assets/case-b50247c686a4-drought-matrix.svg": "8dff327be7b21d0028e9dd06df39ede4b8092111bae899f4b96cfbf3816621ea",
-    "assets/case-01abf7af7f34-fire-warning.svg": "678f3276a1120e8031f16572074e66c00ed852627c7db2dd26a14582b3919323",
-    "assets/case-55cf1bf6c1ce-paris-cooling.svg": "5433be3fd1ef0d2e370f2b2d84b2359202a8701141122e5ca8776033b4cad8d2",
+    "assets/case-2963150a8857-drought-matrix.svg": "8dff327be7b21d0028e9dd06df39ede4b8092111bae899f4b96cfbf3816621ea",
+    "assets/case-d6d1057c8746-fire-warning.svg": "678f3276a1120e8031f16572074e66c00ed852627c7db2dd26a14582b3919323",
+    "assets/case-01abf7af7f34-paris-cooling.svg": "5433be3fd1ef0d2e370f2b2d84b2359202a8701141122e5ca8776033b4cad8d2",
     "assets/case-f80799fd1655-school-geothermal.svg": "318945548c813ab4fd917644bda9ebc1ccc6ea12a2fe42bb9b84f931285f1a92",
-    "assets/case-2963150a8857-community-safety.svg": "f05d4eb3c98a933f1bf55654fe37876e0f994bf30620b0a46ce75d215c283d5c",
-    "assets/case-d6d1057c8746-island-sea-level.svg": "d268a3615b591754fd7c70c78dadd8233d26feb7142661b53c17019bc99921cb"
+    "assets/case-55cf1bf6c1ce-community-safety.svg": "f05d4eb3c98a933f1bf55654fe37876e0f994bf30620b0a46ce75d215c283d5c"
   }
 }

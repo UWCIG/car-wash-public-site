@@ -1,12 +1,12 @@
 {
-  "snapshot_id": "staging-20261031T002932-a7c5fa2b",
-  "previous_snapshot_id": "staging-20261031T001542-ce4b2224",
+  "snapshot_id": "staging-20261031T004353-5e0fcd31",
+  "previous_snapshot_id": "staging-20261031T002932-a7c5fa2b",
   "dataset_version": "car-wash-v3-7-3",
   "product_version": "3.7.3",
   "public_ui_fingerprint": "303235efa15028cb9f95b2248a03ca436b0394004608461077bbfb46881d87a9",
-  "created_at": "2026-10-31T00:29:32.512813+00:00",
-  "activated_at": "2026-10-31T00:29:32.512813+00:00",
-  "case_count": 40,
+  "created_at": "2026-10-31T00:43:53.671042+00:00",
+  "activated_at": "2026-10-31T00:43:53.671042+00:00",
+  "case_count": 39,
   "release_profile": "INTERNAL_FULL",
   "asset_mode": "INTERNAL_REFERENCE_OR_GENERATED",
   "asset_generator_version": null,
@@ -45,12 +45,11 @@
     "case-9ab887e6221d": "fda5620ef93833959ba16fa93685c5476350b63698e02f88764b368947aa52a4",
     "case-b4c7ff13c6f3": "cf49e3ee5e9583b6d7cc36b396d92cf896b96ea4afcceae301474dac8989cda3",
     "case-18c5f68016a2": "bd4a6479da19847d83390ea4bb990110f30b82c760326800690575719c18ea33",
-    "case-b50247c686a4": "44596d5da021cabf1fee887ffb451a84fe5773ebc1ec79d067a926a0fb44e03a",
-    "case-01abf7af7f34": "2a89390baa87e805366604d4181abc6c5fe4a469a967f26e03dc754cb89e3309",
-    "case-55cf1bf6c1ce": "c50bd1dc70cea451e36da27f1200d8bba54506eb2572c49319ef70b4d5ba39d6",
-    "case-f80799fd1655": "f07bcd6aa02cf6ebe78596c0adfa1713e30b83748795110f4c85797fbbaebd49",
     "case-2963150a8857": "8ae886a3d256b6d89ecf44eae61808c551df780e4f02b8daf762fc95e9f113d0",
-    "case-d6d1057c8746": "73701d9bffb268d0862b6f0a128e9c51fe1addd96e926663dfca8d266441148a"
+    "case-d6d1057c8746": "73701d9bffb268d0862b6f0a128e9c51fe1addd96e926663dfca8d266441148a",
+    "case-01abf7af7f34": "2a89390baa87e805366604d4181abc6c5fe4a469a967f26e03dc754cb89e3309",
+    "case-f80799fd1655": "f07bcd6aa02cf6ebe78596c0adfa1713e30b83748795110f4c85797fbbaebd49",
+    "case-55cf1bf6c1ce": "c50bd1dc70cea451e36da27f1200d8bba54506eb2572c49319ef70b4d5ba39d6"
   },
   "visibility": "local-editorial-preview-only",
   "production_deployment": "DISABLED",
@@ -146,8 +145,8 @@
     }
   },
   "site_image_credits": {},
-  "site_revision_id": "site-revision-981ebcb96256e61b-7f828f77",
-  "site_revision_hash": "b350f695748243443c26f0af01d4c7b137242a9fee1456280f67c0dedbef2805",
+  "site_revision_id": "site-revision-caa779741da79dc4-1f9f717c",
+  "site_revision_hash": "d4f0ed7568b5d37bf4b714ab301546047335006c3b7ad250552f39f383dee9e7",
   "case_removal_proofs": {
     "case-11c6d184d7c59fbc": {
       "action": "WITHDRAW",
@@ -163,6 +162,11 @@
       "action": "WITHDRAW",
       "lifecycle_event_id": "lifecycle-4eae52f9dd9145f0",
       "expected_public_version": "editorial-e0ae06e5c4d3468b"
+    },
+    "case-6618dffab7cf89c0": {
+      "action": "WITHDRAW",
+      "lifecycle_event_id": "lifecycle-3c3430b765cc4a45",
+      "expected_public_version": "editorial-55c17301b9c64661"
     }
   },
   "exact_case_versions": {
@@ -202,7 +206,6 @@
     "case-1c636acd76dc6af9": "editorial-866bd905851e4ae4",
     "case-88982690711cb588": "editorial-b26792d457e54189",
     "case-009448c9644bb9a1": "editorial-bc49571ad7284bbe",
-    "case-6618dffab7cf89c0": "editorial-55c17301b9c64661",
     "case-702cf2b2336c1439": "editorial-fa2f861ae92a4f33",
     "case-a6483fa8f15cdb49": "editorial-e09a5579ffbd4f19",
     "case-1ac4d4e7a3cf0e9a": "editorial-6205fd99751142a0"
@@ -213,12 +216,22 @@
   "public_index": {
     "schema": "car-wash-public-index-manifest-v1",
     "path": "public-data/manifest.json",
-    "active_public_count": 40,
+    "active_public_count": 39,
     "shard_count": 1,
     "delta": {
-      "changed_public_ids": [],
-      "removed_public_ids": [],
-      "changed_shards": []
+      "changed_public_ids": [
+        "case-01abf7af7f34",
+        "case-2963150a8857",
+        "case-55cf1bf6c1ce",
+        "case-d6d1057c8746",
+        "case-f80799fd1655"
+      ],
+      "removed_public_ids": [
+        "case-b50247c686a4"
+      ],
+      "changed_shards": [
+        "index/0000.json"
+      ]
     }
   }
 }
