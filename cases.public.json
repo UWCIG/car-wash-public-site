@@ -1,13 +1,13 @@
 {
   "meta": {
-    "snapshot_id": "staging-20261031T001120-c0960d15",
-    "previous_snapshot_id": "staging-20261030T234533-bef3ce71",
+    "snapshot_id": "staging-20261031T001542-ce4b2224",
+    "previous_snapshot_id": "staging-20261031T001120-c0960d15",
     "dataset_version": "car-wash-v3-7-3",
     "product_version": "3.7.3",
     "public_ui_fingerprint": "303235efa15028cb9f95b2248a03ca436b0394004608461077bbfb46881d87a9",
-    "created_at": "2026-10-31T00:11:20.982825+00:00",
-    "activated_at": "2026-10-31T00:11:20.982825+00:00",
-    "case_count": 39,
+    "created_at": "2026-10-31T00:15:42.078268+00:00",
+    "activated_at": "2026-10-31T00:15:42.078268+00:00",
+    "case_count": 40,
     "release_profile": "INTERNAL_FULL",
     "asset_mode": "INTERNAL_REFERENCE_OR_GENERATED",
     "asset_generator_version": null,
@@ -50,6 +50,7 @@
       "case-01abf7af7f34": "2a89390baa87e805366604d4181abc6c5fe4a469a967f26e03dc754cb89e3309",
       "case-55cf1bf6c1ce": "c50bd1dc70cea451e36da27f1200d8bba54506eb2572c49319ef70b4d5ba39d6",
       "case-f80799fd1655": "f07bcd6aa02cf6ebe78596c0adfa1713e30b83748795110f4c85797fbbaebd49",
+      "case-2963150a8857": "bff1bc6c05ad853e85fda8e0490b74149dc407362e489b152e1275f30e0743cf",
       "case-d6d1057c8746": "73701d9bffb268d0862b6f0a128e9c51fe1addd96e926663dfca8d266441148a"
     },
     "visibility": "local-editorial-preview-only",
@@ -193,6 +194,7 @@
       "case-4ede7f783a7ccfd3": "case-4ede7f783a7ccfd3-v-ee13796a0c2a",
       "case-65449b8391057437": "case-65449b8391057437-v-59913b1fb364",
       "case-d3a63b579b601b80": "case-d3a63b579b601b80-v-e151a62d9081",
+      "case-e76050b51577dead": "editorial-780712a84f674eea",
       "case-dcfbbb80f76d1b89": "editorial-13727bb451d3443c",
       "case-120ba97d52519e54": "editorial-e40ea5647c664bdc",
       "case-8a2cba238f276101": "editorial-d881665f55b94059",
@@ -204,7 +206,7 @@
       "case-702cf2b2336c1439": "editorial-fa2f861ae92a4f33",
       "case-a6483fa8f15cdb49": "editorial-e09a5579ffbd4f19",
       "case-1ac4d4e7a3cf0e9a": "editorial-6205fd99751142a0",
-      "case-e76050b51577dead": "editorial-780712a84f674eea"
+      "case-f9945289ca21c2d4": "editorial-df614110f5e34e9a"
     },
     "primary_collection": "Washington and Pacific Northwest",
     "external_collection": "Transferable Examples from Other Regions",
@@ -3820,6 +3822,73 @@
       "asset_variants": []
     },
     {
+      "title": "Nutrient critical levels in soil and grapevines leaves to high-quality grape composition in subtropical climate",
+      "summary": "This study investigates the nutrient critical levels in soil and grapevines leaves that contribute to high-quality grape composition in a subtropical climate. The Journal of Plant Nutrition published the research in 2026.",
+      "location": "",
+      "region": "",
+      "hazards": [
+        "COMPOUND_MULTI_HAZARD"
+      ],
+      "themes": [
+        "GOVERNANCE_PLANNING"
+      ],
+      "climate_mechanism": "",
+      "adaptation_action": "",
+      "implementation_stage": "Planning and design",
+      "outcomes": [],
+      "transferability": "",
+      "limitations": "No measured outcome may be claimed unless the original source reports it.",
+      "last_source_checked_at": "",
+      "source_url": "https://doi.org/10.1080/01904167.2026.2708055",
+      "image_url": "",
+      "image_attribution": "",
+      "image_focal_point": "center",
+      "lead_organization": "",
+      "partners": [
+        "Not yet recorded"
+      ],
+      "public_id": "case-2963150a8857",
+      "slug": "case-2963150a8857",
+      "collection": "Transferable Examples from Other Regions",
+      "reported_outcomes": [],
+      "region_tags": [
+        "UNITED_STATES_OTHER"
+      ],
+      "location_types": [
+        "REGIONAL"
+      ],
+      "geographic_scale": "REGIONAL",
+      "adaptation_strategies": [
+        "ASSESSMENT_PLANNING"
+      ],
+      "lead_organization_types": [
+        "MULTI_PARTNER"
+      ],
+      "partner_organization_types": [],
+      "public_copy_version": "public-copy-draft-v2",
+      "taxonomy_version": "case-taxonomy-v1",
+      "claim_status": "NOT_EVALUATED",
+      "preview_target": false,
+      "latitude": null,
+      "longitude": null,
+      "location_precision": "UNRESOLVED",
+      "coordinate_status": "NEEDS_LOCATION_REVIEW",
+      "primary_hazard": "OTHER_ADAPTATION",
+      "map_visible": true,
+      "hazard_label": "Other adaptation",
+      "hazard_color": "#7A8492",
+      "display_order": 38,
+      "asset_filename": "case-2963150a8857-community-safety.svg",
+      "asset_alt": "Illustration of a community facility prepared for heat and smoke conditions.",
+      "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
+      "asset_license": "PROJECT_GENERATED",
+      "asset_width": 1600,
+      "asset_height": 900,
+      "asset_focal_point": "center",
+      "asset_checksum": "f05d4eb3c98a933f1bf55654fe37876e0f994bf30620b0a46ce75d215c283d5c",
+      "asset_variants": []
+    },
+    {
       "title": "The Academic Movement Disorders Neurologist Workforce in the United States: Purpose, Practice, and the Pursuit of Academic Satisfaction",
       "summary": "This study examines the academic movement disorders neurologist workforce in the United States, focusing on purpose, practice, and academic satisfaction.",
       "location": "United States",
@@ -3875,15 +3944,15 @@
       "map_visible": true,
       "hazard_label": "Other adaptation",
       "hazard_color": "#7A8492",
-      "display_order": 38,
-      "asset_filename": "case-d6d1057c8746-community-safety.svg",
-      "asset_alt": "Illustration of a community facility prepared for heat and smoke conditions.",
+      "display_order": 39,
+      "asset_filename": "case-d6d1057c8746-island-sea-level.svg",
+      "asset_alt": "Illustration of a shoreline planning landscape with tidal water and protected road access.",
       "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
       "asset_license": "PROJECT_GENERATED",
       "asset_width": 1600,
       "asset_height": 900,
       "asset_focal_point": "center",
-      "asset_checksum": "f05d4eb3c98a933f1bf55654fe37876e0f994bf30620b0a46ce75d215c283d5c",
+      "asset_checksum": "d268a3615b591754fd7c70c78dadd8233d26feb7142661b53c17019bc99921cb",
       "asset_variants": []
     }
   ]
