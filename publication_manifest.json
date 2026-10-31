@@ -1,11 +1,11 @@
 {
-  "snapshot_id": "staging-20261031T001542-ce4b2224",
-  "previous_snapshot_id": "staging-20261031T001120-c0960d15",
+  "snapshot_id": "staging-20261031T002932-a7c5fa2b",
+  "previous_snapshot_id": "staging-20261031T001542-ce4b2224",
   "dataset_version": "car-wash-v3-7-3",
   "product_version": "3.7.3",
   "public_ui_fingerprint": "303235efa15028cb9f95b2248a03ca436b0394004608461077bbfb46881d87a9",
-  "created_at": "2026-10-31T00:15:42.078268+00:00",
-  "activated_at": "2026-10-31T00:15:42.078268+00:00",
+  "created_at": "2026-10-31T00:29:32.512813+00:00",
+  "activated_at": "2026-10-31T00:29:32.512813+00:00",
   "case_count": 40,
   "release_profile": "INTERNAL_FULL",
   "asset_mode": "INTERNAL_REFERENCE_OR_GENERATED",
@@ -49,7 +49,7 @@
     "case-01abf7af7f34": "2a89390baa87e805366604d4181abc6c5fe4a469a967f26e03dc754cb89e3309",
     "case-55cf1bf6c1ce": "c50bd1dc70cea451e36da27f1200d8bba54506eb2572c49319ef70b4d5ba39d6",
     "case-f80799fd1655": "f07bcd6aa02cf6ebe78596c0adfa1713e30b83748795110f4c85797fbbaebd49",
-    "case-2963150a8857": "bff1bc6c05ad853e85fda8e0490b74149dc407362e489b152e1275f30e0743cf",
+    "case-2963150a8857": "8ae886a3d256b6d89ecf44eae61808c551df780e4f02b8daf762fc95e9f113d0",
     "case-d6d1057c8746": "73701d9bffb268d0862b6f0a128e9c51fe1addd96e926663dfca8d266441148a"
   },
   "visibility": "local-editorial-preview-only",
@@ -193,6 +193,7 @@
     "case-4ede7f783a7ccfd3": "case-4ede7f783a7ccfd3-v-ee13796a0c2a",
     "case-65449b8391057437": "case-65449b8391057437-v-59913b1fb364",
     "case-d3a63b579b601b80": "case-d3a63b579b601b80-v-e151a62d9081",
+    "case-f9945289ca21c2d4": "editorial-b141c44c4105468a",
     "case-e76050b51577dead": "editorial-780712a84f674eea",
     "case-dcfbbb80f76d1b89": "editorial-13727bb451d3443c",
     "case-120ba97d52519e54": "editorial-e40ea5647c664bdc",
@@ -204,8 +205,7 @@
     "case-6618dffab7cf89c0": "editorial-55c17301b9c64661",
     "case-702cf2b2336c1439": "editorial-fa2f861ae92a4f33",
     "case-a6483fa8f15cdb49": "editorial-e09a5579ffbd4f19",
-    "case-1ac4d4e7a3cf0e9a": "editorial-6205fd99751142a0",
-    "case-f9945289ca21c2d4": "editorial-df614110f5e34e9a"
+    "case-1ac4d4e7a3cf0e9a": "editorial-6205fd99751142a0"
   },
   "primary_collection": "Washington and Pacific Northwest",
   "external_collection": "Transferable Examples from Other Regions",
@@ -216,14 +216,9 @@
     "active_public_count": 40,
     "shard_count": 1,
     "delta": {
-      "changed_public_ids": [
-        "case-2963150a8857",
-        "case-d6d1057c8746"
-      ],
+      "changed_public_ids": [],
       "removed_public_ids": [],
-      "changed_shards": [
-        "index/0000.json"
-      ]
+      "changed_shards": []
     }
   }
 }
