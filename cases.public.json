@@ -1,12 +1,12 @@
 {
   "meta": {
-    "snapshot_id": "staging-20261103T193316-4e364685",
+    "snapshot_id": "staging-20261103T193728-07709dd8",
     "previous_snapshot_id": "staging-20261031T020622-bba0c1e1",
     "dataset_version": "car-wash-v3-7-3",
     "product_version": "3.7.3",
     "public_ui_fingerprint": "303235efa15028cb9f95b2248a03ca436b0394004608461077bbfb46881d87a9",
-    "created_at": "2026-11-03T19:33:16.783460+00:00",
-    "activated_at": "2026-11-03T19:33:16.783460+00:00",
+    "created_at": "2026-11-03T19:37:28.199303+00:00",
+    "activated_at": "2026-11-03T19:37:28.199303+00:00",
     "case_count": 36,
     "release_profile": "INTERNAL_FULL",
     "asset_mode": "INTERNAL_REFERENCE_OR_GENERATED",

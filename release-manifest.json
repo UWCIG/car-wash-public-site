@@ -1,7 +1,7 @@
 {
   "schema": "car-wash-public-release-manifest-v1",
-  "snapshot_id": "staging-20261103T193316-4e364685",
-  "generated_at": "2026-11-03T19:33:16.783460+00:00",
+  "snapshot_id": "staging-20261103T193728-07709dd8",
+  "generated_at": "2026-11-03T19:37:28.199303+00:00",
   "case_count": 36,
   "release_profile": "INTERNAL_FULL",
   "visibility": "local-editorial-preview-only",
