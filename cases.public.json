@@ -1,13 +1,13 @@
 {
   "meta": {
-    "snapshot_id": "staging-20261103T193728-07709dd8",
-    "previous_snapshot_id": "staging-20261031T020622-bba0c1e1",
+    "snapshot_id": "staging-20261103T194756-3c0a29dd",
+    "previous_snapshot_id": "staging-20261103T193728-07709dd8",
     "dataset_version": "car-wash-v3-7-3",
     "product_version": "3.7.3",
     "public_ui_fingerprint": "303235efa15028cb9f95b2248a03ca436b0394004608461077bbfb46881d87a9",
-    "created_at": "2026-11-03T19:37:28.199303+00:00",
-    "activated_at": "2026-11-03T19:37:28.199303+00:00",
-    "case_count": 36,
+    "created_at": "2026-11-03T19:47:56.513573+00:00",
+    "activated_at": "2026-11-03T19:47:56.513573+00:00",
+    "case_count": 35,
     "release_profile": "INTERNAL_FULL",
     "asset_mode": "INTERNAL_REFERENCE_OR_GENERATED",
     "asset_generator_version": null,
@@ -44,7 +44,6 @@
       "case-bcea2b291dd5": "957cf230e5c7a864f861121d5d8d6873e304e6988f1bd5fa47e6813f5dc93183",
       "case-9ab887e6221d": "fda5620ef93833959ba16fa93685c5476350b63698e02f88764b368947aa52a4",
       "case-b4c7ff13c6f3": "cf49e3ee5e9583b6d7cc36b396d92cf896b96ea4afcceae301474dac8989cda3",
-      "case-d6d1057c8746": "73701d9bffb268d0862b6f0a128e9c51fe1addd96e926663dfca8d266441148a",
       "case-01abf7af7f34": "2a89390baa87e805366604d4181abc6c5fe4a469a967f26e03dc754cb89e3309",
       "case-f80799fd1655": "f07bcd6aa02cf6ebe78596c0adfa1713e30b83748795110f4c85797fbbaebd49",
       "case-55cf1bf6c1ce": "c50bd1dc70cea451e36da27f1200d8bba54506eb2572c49319ef70b4d5ba39d6"
@@ -143,8 +142,8 @@
       }
     },
     "site_image_credits": {},
-    "site_revision_id": "site-revision-12cc0c8059e285c8-8a0246e5",
-    "site_revision_hash": "275699e5c8980ab41beab325275c0feca5cd4e712e349410316be3daedccd5de",
+    "site_revision_id": "site-revision-c2bddf74fe456c36-b20016e5",
+    "site_revision_hash": "b0443d34722957cff2e626282e9f3d129ecbf4498165cc9c1ef374250a54ad57",
     "case_removal_proofs": {
       "case-11c6d184d7c59fbc": {
         "action": "WITHDRAW",
@@ -180,6 +179,11 @@
         "action": "WITHDRAW",
         "lifecycle_event_id": "lifecycle-2c674be2bf634a6d",
         "expected_public_version": "editorial-b141c44c4105468a"
+      },
+      "case-e76050b51577dead": {
+        "action": "WITHDRAW",
+        "lifecycle_event_id": "lifecycle-8181d30eba044fd9",
+        "expected_public_version": "editorial-780712a84f674eea"
       }
     },
     "exact_case_versions": {
@@ -210,7 +214,6 @@
       "case-4ede7f783a7ccfd3": "case-4ede7f783a7ccfd3-v-ee13796a0c2a",
       "case-65449b8391057437": "case-65449b8391057437-v-59913b1fb364",
       "case-d3a63b579b601b80": "case-d3a63b579b601b80-v-e151a62d9081",
-      "case-e76050b51577dead": "editorial-780712a84f674eea",
       "case-dcfbbb80f76d1b89": "editorial-13727bb451d3443c",
       "case-120ba97d52519e54": "editorial-e40ea5647c664bdc",
       "case-8a2cba238f276101": "editorial-d881665f55b94059",
@@ -3427,73 +3430,6 @@
       "asset_variants": []
     },
     {
-      "title": "The Academic Movement Disorders Neurologist Workforce in the United States: Purpose, Practice, and the Pursuit of Academic Satisfaction",
-      "summary": "This study examines the academic movement disorders neurologist workforce in the United States, focusing on purpose, practice, and academic satisfaction.",
-      "location": "United States",
-      "region": "",
-      "hazards": [
-        "COMPOUND_MULTI_HAZARD"
-      ],
-      "themes": [
-        "GOVERNANCE_PLANNING"
-      ],
-      "climate_mechanism": "",
-      "adaptation_action": "",
-      "implementation_stage": "Planning and design",
-      "outcomes": [],
-      "transferability": "",
-      "limitations": "No measured outcome may be claimed unless the original source reports it.",
-      "last_source_checked_at": "",
-      "source_url": "https://doi.org/10.1002/mdc3.70760",
-      "image_url": "",
-      "image_attribution": "",
-      "image_focal_point": "center",
-      "lead_organization": "",
-      "partners": [
-        "Not yet recorded"
-      ],
-      "public_id": "case-d6d1057c8746",
-      "slug": "case-d6d1057c8746",
-      "collection": "Transferable Examples from Other Regions",
-      "reported_outcomes": [],
-      "region_tags": [
-        "UNITED_STATES_OTHER"
-      ],
-      "location_types": [
-        "REGIONAL"
-      ],
-      "geographic_scale": "REGIONAL",
-      "adaptation_strategies": [
-        "ASSESSMENT_PLANNING"
-      ],
-      "lead_organization_types": [
-        "MULTI_PARTNER"
-      ],
-      "partner_organization_types": [],
-      "public_copy_version": "public-copy-draft-v2",
-      "taxonomy_version": "case-taxonomy-v1",
-      "claim_status": "NOT_EVALUATED",
-      "preview_target": false,
-      "latitude": null,
-      "longitude": null,
-      "primary_hazard": "OTHER_ADAPTATION",
-      "location_precision": "UNRESOLVED",
-      "coordinate_status": "NEEDS_LOCATION_REVIEW",
-      "map_visible": false,
-      "hazard_label": "Other adaptation",
-      "hazard_color": "#7A8492",
-      "display_order": 32,
-      "asset_filename": "case-d6d1057c8746-invasive-plants.svg",
-      "asset_alt": "Illustration of managed vegetation and restored native habitat.",
-      "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
-      "asset_license": "PROJECT_GENERATED",
-      "asset_width": 1600,
-      "asset_height": 900,
-      "asset_focal_point": "center",
-      "asset_checksum": "6875629b9bb3a20620f5f430093d80af149470b9181120cc708b004dccbdbe93",
-      "asset_variants": []
-    },
-    {
       "title": "30-Day Notice of Proposed Information Collection: Informed Consumer Choice Disclosure and Application for HUD/FHA Insured Mortgage",
       "summary": "This document outlines a proposed information collection for informed consumer choice disclosure and application for HUD/FHA insured mortgages. The proposal aims to provide consumers with clear and concise information about their mortgage options.",
       "location": "United States",
@@ -3549,15 +3485,15 @@
       "map_visible": false,
       "hazard_label": "Other adaptation",
       "hazard_color": "#7A8492",
-      "display_order": 33,
-      "asset_filename": "case-01abf7af7f34-wildfire-strategy.svg",
-      "asset_alt": "Illustration of a wildfire-resilient utility and forest-edge landscape.",
+      "display_order": 32,
+      "asset_filename": "case-01abf7af7f34-invasive-plants.svg",
+      "asset_alt": "Illustration of managed vegetation and restored native habitat.",
       "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
       "asset_license": "PROJECT_GENERATED",
       "asset_width": 1600,
       "asset_height": 900,
       "asset_focal_point": "center",
-      "asset_checksum": "9066c58636525f53585278cfe0de16b2a4b314b29666df3da281cd1a6dee8092",
+      "asset_checksum": "6875629b9bb3a20620f5f430093d80af149470b9181120cc708b004dccbdbe93",
       "asset_variants": []
     },
     {
@@ -3621,15 +3557,15 @@
       "map_visible": false,
       "hazard_label": "Other adaptation",
       "hazard_color": "#7A8492",
-      "display_order": 34,
-      "asset_filename": "case-f80799fd1655-drought-matrix.svg",
-      "asset_alt": "Illustration of a water-reservoir landscape prepared for drought conditions.",
+      "display_order": 33,
+      "asset_filename": "case-f80799fd1655-wildfire-strategy.svg",
+      "asset_alt": "Illustration of a wildfire-resilient utility and forest-edge landscape.",
       "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
       "asset_license": "PROJECT_GENERATED",
       "asset_width": 1600,
       "asset_height": 900,
       "asset_focal_point": "center",
-      "asset_checksum": "8dff327be7b21d0028e9dd06df39ede4b8092111bae899f4b96cfbf3816621ea",
+      "asset_checksum": "9066c58636525f53585278cfe0de16b2a4b314b29666df3da281cd1a6dee8092",
       "asset_variants": []
     },
     {
@@ -3688,15 +3624,15 @@
       "map_visible": false,
       "hazard_label": "Other adaptation",
       "hazard_color": "#7A8492",
-      "display_order": 35,
-      "asset_filename": "case-55cf1bf6c1ce-fire-warning.svg",
-      "asset_alt": "Illustration of a community wildfire warning landscape with a visible alert beacon.",
+      "display_order": 34,
+      "asset_filename": "case-55cf1bf6c1ce-drought-matrix.svg",
+      "asset_alt": "Illustration of a water-reservoir landscape prepared for drought conditions.",
       "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
       "asset_license": "PROJECT_GENERATED",
       "asset_width": 1600,
       "asset_height": 900,
       "asset_focal_point": "center",
-      "asset_checksum": "678f3276a1120e8031f16572074e66c00ed852627c7db2dd26a14582b3919323",
+      "asset_checksum": "8dff327be7b21d0028e9dd06df39ede4b8092111bae899f4b96cfbf3816621ea",
       "asset_variants": []
     }
   ]
