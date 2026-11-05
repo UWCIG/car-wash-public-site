@@ -1,13 +1,13 @@
 {
   "meta": {
-    "snapshot_id": "staging-20261103T194756-3c0a29dd",
-    "previous_snapshot_id": "staging-20261103T193728-07709dd8",
+    "snapshot_id": "staging-20261105T010600-91eac1e9",
+    "previous_snapshot_id": "staging-20261103T194756-3c0a29dd",
     "dataset_version": "car-wash-v3-7-3",
     "product_version": "3.7.3",
     "public_ui_fingerprint": "303235efa15028cb9f95b2248a03ca436b0394004608461077bbfb46881d87a9",
-    "created_at": "2026-11-03T19:47:56.513573+00:00",
-    "activated_at": "2026-11-03T19:47:56.513573+00:00",
-    "case_count": 35,
+    "created_at": "2026-11-05T01:06:00.136561+00:00",
+    "activated_at": "2026-11-05T01:06:00.136561+00:00",
+    "case_count": 34,
     "release_profile": "INTERNAL_FULL",
     "asset_mode": "INTERNAL_REFERENCE_OR_GENERATED",
     "asset_generator_version": null,
@@ -45,13 +45,12 @@
       "case-9ab887e6221d": "fda5620ef93833959ba16fa93685c5476350b63698e02f88764b368947aa52a4",
       "case-b4c7ff13c6f3": "cf49e3ee5e9583b6d7cc36b396d92cf896b96ea4afcceae301474dac8989cda3",
       "case-01abf7af7f34": "2a89390baa87e805366604d4181abc6c5fe4a469a967f26e03dc754cb89e3309",
-      "case-f80799fd1655": "f07bcd6aa02cf6ebe78596c0adfa1713e30b83748795110f4c85797fbbaebd49",
       "case-55cf1bf6c1ce": "c50bd1dc70cea451e36da27f1200d8bba54506eb2572c49319ef70b4d5ba39d6"
     },
     "visibility": "local-editorial-preview-only",
     "production_deployment": "DISABLED",
     "approval_boundary": "Internal editorial preview only; human review and publication approval are still required.",
-    "source_commit_sha": "0000000000000000000000000000000000000000",
+    "source_commit_sha": "4800c10eabd1c50b391b915960f11d946cb2b727",
     "public_schema_version": "public-case-copy-v1",
     "taxonomy_version": "case-taxonomy-v1",
     "render_mode": "INTERNAL_STAGING",
@@ -184,6 +183,11 @@
         "action": "WITHDRAW",
         "lifecycle_event_id": "lifecycle-8181d30eba044fd9",
         "expected_public_version": "editorial-780712a84f674eea"
+      },
+      "case-120ba97d52519e54": {
+        "action": "WITHDRAW",
+        "lifecycle_event_id": "lifecycle-48c13b9d6766438c",
+        "expected_public_version": "editorial-e40ea5647c664bdc"
       }
     },
     "exact_case_versions": {
@@ -215,7 +219,6 @@
       "case-65449b8391057437": "case-65449b8391057437-v-59913b1fb364",
       "case-d3a63b579b601b80": "case-d3a63b579b601b80-v-e151a62d9081",
       "case-dcfbbb80f76d1b89": "editorial-13727bb451d3443c",
-      "case-120ba97d52519e54": "editorial-e40ea5647c664bdc",
       "case-8a2cba238f276101": "editorial-d881665f55b94059",
       "case-1c636acd76dc6af9": "editorial-866bd905851e4ae4",
       "case-88982690711cb588": "editorial-b26792d457e54189",
@@ -225,7 +228,22 @@
     },
     "primary_collection": "Washington and Pacific Northwest",
     "external_collection": "Transferable Examples from Other Regions",
-    "featured_public_id": "case-5a144b34bd8a"
+    "featured_public_id": "case-5a144b34bd8a",
+    "public_index": {
+      "schema": "car-wash-public-index-manifest-v1",
+      "path": "public-data/manifest.json",
+      "active_public_count": 34,
+      "shard_count": 1,
+      "delta": {
+        "changed_public_ids": [],
+        "removed_public_ids": [
+          "case-f80799fd1655"
+        ],
+        "changed_shards": [
+          "index/0000.json"
+        ]
+      }
+    }
   },
   "cases": [
     {
@@ -3494,78 +3512,6 @@
       "asset_height": 900,
       "asset_focal_point": "center",
       "asset_checksum": "6875629b9bb3a20620f5f430093d80af149470b9181120cc708b004dccbdbe93",
-      "asset_variants": []
-    },
-    {
-      "title": "From disturbance to resilience: early microbial community establishment in landslide soils of New Zealand",
-      "summary": "A study analyzed microbial communities in landslide soils over a century, finding a core community established within 3 years and persisting for up to 100 years. Alpha diversity declined with soil age, and community composition showed turnover across the chronosequence. Bacterial assemblages were dominated by Actinobacteriota, Chloroflexi, and Pseudomonadota, while archaea were mainly dominated by Thermoproteota and Thermoplasmatota. Increasing soil age was associated with higher total organic carbon, greater abundance of oligotrophic taxa, and higher bacterial 16S rRNA gene copy numbers. Functional predictions indicated a transition from labile carbon turnover in young soils to enhanced potential for complex organic matter degradation in older soils.",
-      "location": "Western Southern Alps, New Zealand",
-      "region": "",
-      "hazards": [
-        "COMPOUND_MULTI_HAZARD"
-      ],
-      "themes": [
-        "COMMUNITY_RESILIENCE"
-      ],
-      "climate_mechanism": "",
-      "adaptation_action": "",
-      "implementation_stage": "Planning and design",
-      "outcomes": [
-        "Microbial communities assemble rapidly after disturbance and undergo gradual, predictable shifts toward more specialized and functionally differentiated assemblages during soil development"
-      ],
-      "transferability": "Understanding microbial community shifts in landslide soils can inform soil formation and ecological restoration efforts",
-      "limitations": "No measured outcome may be claimed unless the original source reports it.",
-      "last_source_checked_at": "",
-      "source_url": "https://academic.oup.com/femsec/article/102/8/fiag086/8750260?login=false",
-      "image_url": "",
-      "image_attribution": "Source: academic.oup.com",
-      "image_focal_point": "center",
-      "lead_organization": "",
-      "partners": [
-        "Not yet recorded"
-      ],
-      "public_id": "case-f80799fd1655",
-      "slug": "case-f80799fd1655",
-      "collection": "Transferable Examples from Other Regions",
-      "reported_outcomes": [
-        "Microbial communities assemble rapidly after disturbance and undergo gradual, predictable shifts toward more specialized and functionally differentiated assemblages during soil development"
-      ],
-      "region_tags": [
-        "UNITED_STATES_OTHER"
-      ],
-      "location_types": [
-        "REGIONAL"
-      ],
-      "geographic_scale": "COMMUNITY",
-      "adaptation_strategies": [
-        "ASSESSMENT_PLANNING",
-        "COMMUNITY_ENGAGEMENT_CAPACITY_BUILDING"
-      ],
-      "lead_organization_types": [
-        "MULTI_PARTNER"
-      ],
-      "partner_organization_types": [],
-      "public_copy_version": "public-copy-draft-v2",
-      "taxonomy_version": "case-taxonomy-v1",
-      "claim_status": "REPORTED",
-      "preview_target": false,
-      "latitude": null,
-      "longitude": null,
-      "primary_hazard": "OTHER_ADAPTATION",
-      "location_precision": "UNRESOLVED",
-      "coordinate_status": "NEEDS_LOCATION_REVIEW",
-      "map_visible": false,
-      "hazard_label": "Other adaptation",
-      "hazard_color": "#7A8492",
-      "display_order": 33,
-      "asset_filename": "case-f80799fd1655-wildfire-strategy.svg",
-      "asset_alt": "Illustration of a wildfire-resilient utility and forest-edge landscape.",
-      "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
-      "asset_license": "PROJECT_GENERATED",
-      "asset_width": 1600,
-      "asset_height": 900,
-      "asset_focal_point": "center",
-      "asset_checksum": "9066c58636525f53585278cfe0de16b2a4b314b29666df3da281cd1a6dee8092",
       "asset_variants": []
     },
     {

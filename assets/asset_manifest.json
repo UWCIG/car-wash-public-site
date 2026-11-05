@@ -1724,24 +1724,6 @@
     "width": 1600
   },
   {
-    "alt_text": "Illustration of a wildfire-resilient utility and forest-edge landscape.",
-    "asset_id": "asset-case-f80799fd1655",
-    "asset_role": "CARD",
-    "attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
-    "case_id": "case-f80799fd1655",
-    "focal_point": "center",
-    "height": 900,
-    "last_verified_at": "2026-11-03T19:47:56.598955+00:00",
-    "license_name": "PROJECT_GENERATED",
-    "license_url": null,
-    "mime_type": "image/svg+xml",
-    "public_export_path": "assets/case-f80799fd1655-wildfire-strategy.svg",
-    "rights_status": "GENERATED_FALLBACK",
-    "sha256": "9066c58636525f53585278cfe0de16b2a4b314b29666df3da281cd1a6dee8092",
-    "source_url": null,
-    "width": 1600
-  },
-  {
     "alt_text": "Illustration of a water-reservoir landscape prepared for drought conditions.",
     "asset_id": "asset-case-55cf1bf6c1ce",
     "asset_role": "CARD",
