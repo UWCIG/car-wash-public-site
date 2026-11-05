@@ -1,8 +1,8 @@
 {
   "schema": "car-wash-public-release-manifest-v1",
-  "snapshot_id": "staging-20261105T021552-61c830da",
-  "generated_at": "2026-11-05T02:15:52.424413+00:00",
-  "case_count": 35,
+  "snapshot_id": "staging-20261105T022202-b50305cd",
+  "generated_at": "2026-11-05T02:22:02.653048+00:00",
+  "case_count": 34,
   "release_profile": "INTERNAL_FULL",
   "visibility": "local-editorial-preview-only",
   "production_deployment": "DISABLED",
@@ -42,8 +42,7 @@
     "case-9ab887e6221d": "fda5620ef93833959ba16fa93685c5476350b63698e02f88764b368947aa52a4",
     "case-b4c7ff13c6f3": "cf49e3ee5e9583b6d7cc36b396d92cf896b96ea4afcceae301474dac8989cda3",
     "case-6099151569cc": "ab56ffb9e55bd00531be38dd7bdfc726de2106a836b66027f53330a684fa3b1f",
-    "case-5d4fa7dff381": "bd549aab4e54266ef84d5c2d50f09a14a5796379053f196048c6fc14068ba217",
-    "case-fdb8b0cdf978": "eb4f19b41f6acccb62cd043d54a12ac5472f32f5e06e9908f28715bace5cb5a9"
+    "case-5d4fa7dff381": "bd549aab4e54266ef84d5c2d50f09a14a5796379053f196048c6fc14068ba217"
   },
   "exact_case_versions": {
     "case-f1e1186726cc4e3e": "case-f1e1186726cc4e3e-v-f1ab81684778",
@@ -79,8 +78,7 @@
     "case-88982690711cb588": "editorial-b26792d457e54189",
     "case-702cf2b2336c1439": "editorial-fa2f861ae92a4f33",
     "case-a6483fa8f15cdb49": "editorial-e09a5579ffbd4f19",
-    "case-1ac4d4e7a3cf0e9a": "editorial-6205fd99751142a0",
-    "case-fc5a1c075a7ec7fe": "editorial-f4f0d06956454fa9"
+    "case-1ac4d4e7a3cf0e9a": "editorial-6205fd99751142a0"
   },
   "case_removal_proofs": {
     "case-11c6d184d7c59fbc": {
@@ -137,6 +135,11 @@
       "action": "WITHDRAW",
       "lifecycle_event_id": "lifecycle-fb97b145caf241fe",
       "expected_public_version": "editorial-d881665f55b94059"
+    },
+    "case-fc5a1c075a7ec7fe": {
+      "action": "WITHDRAW",
+      "lifecycle_event_id": "lifecycle-b64e0933332d42bd",
+      "expected_public_version": "editorial-f4f0d06956454fa9"
     }
   },
   "site_revision_id": "site-revision-c2bddf74fe456c36-b20016e5",
@@ -234,13 +237,13 @@
   "public_index": {
     "schema": "car-wash-public-index-manifest-v1",
     "path": "public-data/manifest.json",
-    "active_public_count": 35,
+    "active_public_count": 34,
     "shard_count": 1,
     "delta": {
-      "changed_public_ids": [
+      "changed_public_ids": [],
+      "removed_public_ids": [
         "case-fdb8b0cdf978"
       ],
-      "removed_public_ids": [],
       "changed_shards": [
         "index/0000.json"
       ]
@@ -283,5 +286,6 @@
     "assets/case-6099151569cc-invasive-plants.svg": "6875629b9bb3a20620f5f430093d80af149470b9181120cc708b004dccbdbe93",
     "assets/case-5d4fa7dff381-wildfire-strategy.svg": "9066c58636525f53585278cfe0de16b2a4b314b29666df3da281cd1a6dee8092",
     "assets/case-fdb8b0cdf978-drought-matrix.svg": "8dff327be7b21d0028e9dd06df39ede4b8092111bae899f4b96cfbf3816621ea"
-  }
+  },
+  "previous_snapshot_id": "staging-20261105T021552-61c830da"
 }
