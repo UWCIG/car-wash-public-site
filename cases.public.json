@@ -1,13 +1,13 @@
 {
   "meta": {
-    "snapshot_id": "staging-20261105T020949-4822434f",
-    "previous_snapshot_id": "staging-20261105T020031-cf0bd582",
+    "snapshot_id": "staging-20261105T021552-61c830da",
+    "previous_snapshot_id": "staging-20261105T020949-4822434f",
     "dataset_version": "car-wash-v3-7-3",
     "product_version": "3.7.3",
     "public_ui_fingerprint": "303235efa15028cb9f95b2248a03ca436b0394004608461077bbfb46881d87a9",
-    "created_at": "2026-11-05T02:09:49.727492+00:00",
-    "activated_at": "2026-11-05T02:09:49.727492+00:00",
-    "case_count": 34,
+    "created_at": "2026-11-05T02:15:52.424413+00:00",
+    "activated_at": "2026-11-05T02:15:52.424413+00:00",
+    "case_count": 35,
     "release_profile": "INTERNAL_FULL",
     "asset_mode": "INTERNAL_REFERENCE_OR_GENERATED",
     "asset_generator_version": null,
@@ -45,7 +45,8 @@
       "case-9ab887e6221d": "fda5620ef93833959ba16fa93685c5476350b63698e02f88764b368947aa52a4",
       "case-b4c7ff13c6f3": "cf49e3ee5e9583b6d7cc36b396d92cf896b96ea4afcceae301474dac8989cda3",
       "case-6099151569cc": "ab56ffb9e55bd00531be38dd7bdfc726de2106a836b66027f53330a684fa3b1f",
-      "case-5d4fa7dff381": "bd549aab4e54266ef84d5c2d50f09a14a5796379053f196048c6fc14068ba217"
+      "case-5d4fa7dff381": "bd549aab4e54266ef84d5c2d50f09a14a5796379053f196048c6fc14068ba217",
+      "case-fdb8b0cdf978": "eb4f19b41f6acccb62cd043d54a12ac5472f32f5e06e9908f28715bace5cb5a9"
     },
     "visibility": "local-editorial-preview-only",
     "production_deployment": "DISABLED",
@@ -228,13 +229,14 @@
       "case-4ede7f783a7ccfd3": "case-4ede7f783a7ccfd3-v-ee13796a0c2a",
       "case-65449b8391057437": "case-65449b8391057437-v-59913b1fb364",
       "case-d3a63b579b601b80": "case-d3a63b579b601b80-v-e151a62d9081",
+      "case-881c1ce62e735c55": "editorial-266fa8aa8d2c4946",
       "case-005142a5bc7ab08b": "editorial-b88bdd17c92d458b",
       "case-1c636acd76dc6af9": "editorial-866bd905851e4ae4",
       "case-88982690711cb588": "editorial-b26792d457e54189",
       "case-702cf2b2336c1439": "editorial-fa2f861ae92a4f33",
       "case-a6483fa8f15cdb49": "editorial-e09a5579ffbd4f19",
       "case-1ac4d4e7a3cf0e9a": "editorial-6205fd99751142a0",
-      "case-881c1ce62e735c55": "editorial-266fa8aa8d2c4946"
+      "case-fc5a1c075a7ec7fe": "editorial-f4f0d06956454fa9"
     },
     "primary_collection": "Washington and Pacific Northwest",
     "external_collection": "Transferable Examples from Other Regions",
@@ -3574,6 +3576,73 @@
       "asset_height": 900,
       "asset_focal_point": "center",
       "asset_checksum": "9066c58636525f53585278cfe0de16b2a4b314b29666df3da281cd1a6dee8092",
+      "asset_variants": []
+    },
+    {
+      "title": "Notice of Inventory Completion: Indiana University, Bloomington, IN",
+      "summary": "The Interior Department announces the completion of an inventory at Indiana University, Bloomington, IN. The exact contents of the inventory are not specified in the source.",
+      "location": "",
+      "region": "",
+      "hazards": [
+        "COMPOUND_MULTI_HAZARD"
+      ],
+      "themes": [
+        "GOVERNANCE_PLANNING"
+      ],
+      "climate_mechanism": "",
+      "adaptation_action": "",
+      "implementation_stage": "Planning and design",
+      "outcomes": [],
+      "transferability": "",
+      "limitations": "No measured outcome may be claimed unless the original source reports it.",
+      "last_source_checked_at": "",
+      "source_url": "https://www.federalregister.gov/documents/2026/10/22/2026-21538/notice-of-inventory-completion-indiana-university-bloomington-in",
+      "image_url": "",
+      "image_attribution": "",
+      "image_focal_point": "center",
+      "lead_organization": "",
+      "partners": [
+        "Not yet recorded"
+      ],
+      "public_id": "case-fdb8b0cdf978",
+      "slug": "case-fdb8b0cdf978",
+      "collection": "Transferable Examples from Other Regions",
+      "reported_outcomes": [],
+      "region_tags": [
+        "UNITED_STATES_OTHER"
+      ],
+      "location_types": [
+        "REGIONAL"
+      ],
+      "geographic_scale": "REGIONAL",
+      "adaptation_strategies": [
+        "ASSESSMENT_PLANNING"
+      ],
+      "lead_organization_types": [
+        "MULTI_PARTNER"
+      ],
+      "partner_organization_types": [],
+      "public_copy_version": "public-copy-draft-v2",
+      "taxonomy_version": "case-taxonomy-v1",
+      "claim_status": "NOT_EVALUATED",
+      "preview_target": false,
+      "latitude": null,
+      "longitude": null,
+      "location_precision": "UNRESOLVED",
+      "coordinate_status": "NEEDS_LOCATION_REVIEW",
+      "primary_hazard": "OTHER_ADAPTATION",
+      "map_visible": true,
+      "hazard_label": "Other adaptation",
+      "hazard_color": "#7A8492",
+      "display_order": 34,
+      "asset_filename": "case-fdb8b0cdf978-drought-matrix.svg",
+      "asset_alt": "Illustration of a water-reservoir landscape prepared for drought conditions.",
+      "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
+      "asset_license": "PROJECT_GENERATED",
+      "asset_width": 1600,
+      "asset_height": 900,
+      "asset_focal_point": "center",
+      "asset_checksum": "8dff327be7b21d0028e9dd06df39ede4b8092111bae899f4b96cfbf3816621ea",
       "asset_variants": []
     }
   ]
