@@ -1,8 +1,8 @@
 {
   "schema": "car-wash-public-release-manifest-v1",
-  "snapshot_id": "staging-20261105T020031-cf0bd582",
-  "generated_at": "2026-11-05T02:00:31.882153+00:00",
-  "case_count": 33,
+  "snapshot_id": "staging-20261105T020949-4822434f",
+  "generated_at": "2026-11-05T02:09:49.727492+00:00",
+  "case_count": 34,
   "release_profile": "INTERNAL_FULL",
   "visibility": "local-editorial-preview-only",
   "production_deployment": "DISABLED",
@@ -41,6 +41,7 @@
     "case-bcea2b291dd5": "957cf230e5c7a864f861121d5d8d6873e304e6988f1bd5fa47e6813f5dc93183",
     "case-9ab887e6221d": "fda5620ef93833959ba16fa93685c5476350b63698e02f88764b368947aa52a4",
     "case-b4c7ff13c6f3": "cf49e3ee5e9583b6d7cc36b396d92cf896b96ea4afcceae301474dac8989cda3",
+    "case-6099151569cc": "ab56ffb9e55bd00531be38dd7bdfc726de2106a836b66027f53330a684fa3b1f",
     "case-5d4fa7dff381": "bd549aab4e54266ef84d5c2d50f09a14a5796379053f196048c6fc14068ba217"
   },
   "exact_case_versions": {
@@ -71,12 +72,13 @@
     "case-4ede7f783a7ccfd3": "case-4ede7f783a7ccfd3-v-ee13796a0c2a",
     "case-65449b8391057437": "case-65449b8391057437-v-59913b1fb364",
     "case-d3a63b579b601b80": "case-d3a63b579b601b80-v-e151a62d9081",
+    "case-005142a5bc7ab08b": "editorial-b88bdd17c92d458b",
     "case-1c636acd76dc6af9": "editorial-866bd905851e4ae4",
     "case-88982690711cb588": "editorial-b26792d457e54189",
     "case-702cf2b2336c1439": "editorial-fa2f861ae92a4f33",
     "case-a6483fa8f15cdb49": "editorial-e09a5579ffbd4f19",
     "case-1ac4d4e7a3cf0e9a": "editorial-6205fd99751142a0",
-    "case-005142a5bc7ab08b": "editorial-b88bdd17c92d458b"
+    "case-881c1ce62e735c55": "editorial-266fa8aa8d2c4946"
   },
   "case_removal_proofs": {
     "case-11c6d184d7c59fbc": {
@@ -230,11 +232,12 @@
   "public_index": {
     "schema": "car-wash-public-index-manifest-v1",
     "path": "public-data/manifest.json",
-    "active_public_count": 33,
+    "active_public_count": 34,
     "shard_count": 1,
     "delta": {
       "changed_public_ids": [
-        "case-5d4fa7dff381"
+        "case-5d4fa7dff381",
+        "case-6099151569cc"
       ],
       "removed_public_ids": [],
       "changed_shards": [
@@ -276,6 +279,7 @@
     "assets/case-bcea2b291dd5-oasis-schoolyard.svg": "4436b7fa863e2c34dcea98fadb83a3b055d590d679c96119511df8fb8183531a",
     "assets/case-9ab887e6221d-powell-shoreline.svg": "d5cd8e22cd958beef193ab0a8c2df65c4c34cd71e337c693b1acd065317f7d25",
     "assets/case-b4c7ff13c6f3-portland-depaving.svg": "f2f1dcffb6615ef795a175ee9a9e3ecb18748ab829b7c49c475dd701fd2cee0a",
-    "assets/case-5d4fa7dff381-invasive-plants.svg": "6875629b9bb3a20620f5f430093d80af149470b9181120cc708b004dccbdbe93"
+    "assets/case-6099151569cc-invasive-plants.svg": "6875629b9bb3a20620f5f430093d80af149470b9181120cc708b004dccbdbe93",
+    "assets/case-5d4fa7dff381-wildfire-strategy.svg": "9066c58636525f53585278cfe0de16b2a4b314b29666df3da281cd1a6dee8092"
   }
 }
