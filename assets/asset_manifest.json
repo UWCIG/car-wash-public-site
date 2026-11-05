@@ -1704,23 +1704,5 @@
     "sha256": "f2f1dcffb6615ef795a175ee9a9e3ecb18748ab829b7c49c475dd701fd2cee0a",
     "source_url": null,
     "width": 1600
-  },
-  {
-    "alt_text": "Illustration of managed vegetation and restored native habitat.",
-    "asset_id": "asset-case-01abf7af7f34",
-    "asset_role": "CARD",
-    "attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
-    "case_id": "case-01abf7af7f34",
-    "focal_point": "center",
-    "height": 900,
-    "last_verified_at": "2026-11-03T19:47:56.598660+00:00",
-    "license_name": "PROJECT_GENERATED",
-    "license_url": null,
-    "mime_type": "image/svg+xml",
-    "public_export_path": "assets/case-01abf7af7f34-invasive-plants.svg",
-    "rights_status": "GENERATED_FALLBACK",
-    "sha256": "6875629b9bb3a20620f5f430093d80af149470b9181120cc708b004dccbdbe93",
-    "source_url": null,
-    "width": 1600
   }
 ]
