@@ -10,7 +10,10 @@ concurrency:
   group: pages
   cancel-in-progress: false
 jobs:
-  build:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,33 +21,5 @@ jobs:
       - uses: actions/upload-pages-artifact@v4
         with:
           path: .
-      - name: Wait for uploaded Pages artifact visibility
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          python3 - <<'PY'
-          import json, os, time, urllib.request
-          url = os.environ['GITHUB_API_URL'] + '/repos/' + os.environ['GITHUB_REPOSITORY'] + '/actions/runs/' + os.environ['GITHUB_RUN_ID'] + '/artifacts'
-          for attempt in range(30):
-              request = urllib.request.Request(url, headers={'Authorization': 'Bearer ' + os.environ['GH_TOKEN'], 'Accept': 'application/vnd.github+json'})
-              with urllib.request.urlopen(request, timeout=20) as response:
-                  artifacts = json.load(response)['artifacts']
-              matches = [item for item in artifacts if item['name'] == 'github-pages' and not item['expired']]
-              if len(matches) == 1:
-                  print('Exactly one Pages artifact is ready')
-                  break
-              if len(matches) > 1:
-                  raise SystemExit('Multiple Pages artifacts found; refuse ambiguous deployment')
-              time.sleep(3)
-          else:
-              raise SystemExit('Pages artifact visibility timed out')
-          PY
-  deploy:
-    needs: build
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
       - id: deployment
         uses: actions/deploy-pages@v4
