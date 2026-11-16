@@ -1,17 +1,17 @@
 {
-  "snapshot_id": "staging-20261105T022202-b50305cd",
-  "previous_snapshot_id": "staging-20261105T021552-61c830da",
+  "snapshot_id": "staging-20261116T215644-85782175",
+  "previous_snapshot_id": "staging-20261030T191939-8e282de3",
   "dataset_version": "car-wash-v3-7-3",
   "product_version": "3.7.3",
   "public_ui_fingerprint": "303235efa15028cb9f95b2248a03ca436b0394004608461077bbfb46881d87a9",
-  "created_at": "2026-11-05T02:22:02.653048+00:00",
-  "activated_at": "2026-11-05T02:22:02.653048+00:00",
+  "created_at": "2026-11-16T21:56:44.406788+00:00",
+  "activated_at": "2026-11-16T21:56:44.406788+00:00",
   "case_count": 34,
   "release_profile": "INTERNAL_FULL",
   "asset_mode": "INTERNAL_REFERENCE_OR_GENERATED",
   "asset_generator_version": null,
   "approved_public_copy_hashes": {
-    "case-f8d8e2679560": "5debe9a99266de4d632682f3009b4ea2336b12d4f86711dd7509acc194ae7e91",
+    "case-f8d8e2679560": "acc6c78638d8965c2a9b6e68c0a83f7a0ae9130fe8762f1c898642fcb3ab704b",
     "case-ea09a24590a7": "e7ed91ff9c20d47bdd67bc774e3f1699e1649985bd0adbb2caee0f774e8df059",
     "case-f1e1186726cc": "526db1117c9058c11c6a61fe54ae5d268deedbc7f1b521307b7ebcd23f37fd83",
     "case-202b933f7f34": "2e39a919358198435ff4456734e7c2a8abcda0feabd7f4692a6e6f0c04ab073d",
@@ -41,15 +41,15 @@
     "case-b1bd5683b57a": "5f6ad0ad6184cfae8d4306ef65cf592f41b66d0e6c3ad9a250d65b100cecc26c",
     "case-ff03cf75659e": "cbda0b7231037872c00d2c67de9e4f1dc295701514bb7b6bc4f7f09bdb59e592",
     "case-bcea2b291dd5": "957cf230e5c7a864f861121d5d8d6873e304e6988f1bd5fa47e6813f5dc93183",
-    "case-9ab887e6221d": "fda5620ef93833959ba16fa93685c5476350b63698e02f88764b368947aa52a4",
     "case-b4c7ff13c6f3": "cf49e3ee5e9583b6d7cc36b396d92cf896b96ea4afcceae301474dac8989cda3",
     "case-6099151569cc": "ab56ffb9e55bd00531be38dd7bdfc726de2106a836b66027f53330a684fa3b1f",
-    "case-5d4fa7dff381": "bd549aab4e54266ef84d5c2d50f09a14a5796379053f196048c6fc14068ba217"
+    "case-5d4fa7dff381": "bd549aab4e54266ef84d5c2d50f09a14a5796379053f196048c6fc14068ba217",
+    "case-fdb8b0cdf978": "eb4f19b41f6acccb62cd043d54a12ac5472f32f5e06e9908f28715bace5cb5a9"
   },
   "visibility": "local-editorial-preview-only",
   "production_deployment": "DISABLED",
   "approval_boundary": "Internal editorial preview only; human review and publication approval are still required.",
-  "source_commit_sha": "621bf28ef464ea37a91dbe0149a8738050ad0b24",
+  "source_commit_sha": "2bf4397fa986f5b9450be12b31488b1468ab8f1d",
   "public_schema_version": "public-case-copy-v1",
   "taxonomy_version": "case-taxonomy-v1",
   "render_mode": "INTERNAL_STAGING",
@@ -88,28 +88,34 @@
     "use_summary": "Use the filters to find relevant examples, read the original source, and consider local context before applying an approach elsewhere."
   },
   "site_design": {
+    "schema_version": 1,
     "brand_name": "CAR-WASH",
     "brand_subtitle": "WASCO · Climate Impacts Group",
-    "contact_email": "cig@uw.edu",
-    "density": "standard",
     "description": "Source-bounded climate adaptation case studies for Washington and the Pacific Northwest.",
-    "hero_alt": "",
+    "contact_email": "cig@uw.edu",
+    "theme": {
+      "primary": "#34735e",
+      "accent": "#57418f",
+      "background": "#ffffff",
+      "text": "#14273a"
+    },
+    "density": "standard",
     "hero_image": "",
+    "hero_alt": "",
     "navigation": [
       {
-        "href": "#library",
-        "label": "Case Studies"
+        "label": "Case Studies",
+        "href": "#library"
       },
       {
-        "href": "#using-cases",
-        "label": "Using Case Studies"
+        "label": "Using Case Studies",
+        "href": "#using-cases"
       },
       {
-        "href": "#methodology",
-        "label": "Methodology"
+        "label": "Methodology",
+        "href": "#methodology"
       }
     ],
-    "schema_version": 1,
     "sections": [
       {
         "id": "hero",
@@ -131,13 +137,7 @@
         "type": "builtin",
         "visible": true
       }
-    ],
-    "theme": {
-      "accent": "#57418f",
-      "background": "#ffffff",
-      "primary": "#34735e",
-      "text": "#14273a"
-    }
+    ]
   },
   "site_image_credits": {},
   "site_revision_id": "site-revision-c2bddf74fe456c36-b20016e5",
@@ -183,6 +183,11 @@
       "lifecycle_event_id": "lifecycle-8181d30eba044fd9",
       "expected_public_version": "editorial-780712a84f674eea"
     },
+    "case-1c636acd76dc6af9": {
+      "action": "WITHDRAW",
+      "lifecycle_event_id": "lifecycle-7aa120590b164e43",
+      "expected_public_version": "editorial-866bd905851e4ae4"
+    },
     "case-dcfbbb80f76d1b89": {
       "action": "WITHDRAW",
       "lifecycle_event_id": "lifecycle-652e1c7ccc48494d",
@@ -197,17 +202,12 @@
       "action": "WITHDRAW",
       "lifecycle_event_id": "lifecycle-fb97b145caf241fe",
       "expected_public_version": "editorial-d881665f55b94059"
-    },
-    "case-fc5a1c075a7ec7fe": {
-      "action": "WITHDRAW",
-      "lifecycle_event_id": "lifecycle-b64e0933332d42bd",
-      "expected_public_version": "editorial-f4f0d06956454fa9"
     }
   },
   "exact_case_versions": {
     "case-f1e1186726cc4e3e": "case-f1e1186726cc4e3e-v-f1ab81684778",
     "case-ea09a24590a79bd4": "case-ea09a24590a79bd4-v-3dc82e87a615",
-    "case-f8d8e2679560cda0": "case-f8d8e2679560cda0-v-82f2b4e03f1f",
+    "case-f8d8e2679560cda0": "editorial-4f9b4a4a6517476c",
     "case-202b933f7f3474fd": "case-202b933f7f3474fd-v-d5ba66cc22c3",
     "case-3a7082ea7b13e238": "case-3a7082ea7b13e238-v-f705c8b998e4",
     "case-6d73f76fa8cebbc3": "case-6d73f76fa8cebbc3-v-a16839607781",
@@ -232,9 +232,9 @@
     "case-4ede7f783a7ccfd3": "case-4ede7f783a7ccfd3-v-ee13796a0c2a",
     "case-65449b8391057437": "case-65449b8391057437-v-59913b1fb364",
     "case-d3a63b579b601b80": "case-d3a63b579b601b80-v-e151a62d9081",
+    "case-fc5a1c075a7ec7fe": "editorial-f4f0d06956454fa9",
     "case-881c1ce62e735c55": "editorial-266fa8aa8d2c4946",
     "case-005142a5bc7ab08b": "editorial-b88bdd17c92d458b",
-    "case-1c636acd76dc6af9": "editorial-866bd905851e4ae4",
     "case-88982690711cb588": "editorial-b26792d457e54189",
     "case-702cf2b2336c1439": "editorial-fa2f861ae92a4f33",
     "case-a6483fa8f15cdb49": "editorial-e09a5579ffbd4f19",
@@ -249,10 +249,41 @@
     "active_public_count": 34,
     "shard_count": 1,
     "delta": {
-      "changed_public_ids": [],
-      "removed_public_ids": [
-        "case-fdb8b0cdf978"
+      "changed_public_ids": [
+        "case-112329203063",
+        "case-11c95c93520c",
+        "case-1e466d65ac2d",
+        "case-1e4e1b001b0b",
+        "case-202b933f7f34",
+        "case-2114bfaec551",
+        "case-22e5a21896c5",
+        "case-379ca304e175",
+        "case-3a7082ea7b13",
+        "case-487646af05ed",
+        "case-4ede7f783a7c",
+        "case-5a144b34bd8a",
+        "case-5d4fa7dff381",
+        "case-6099151569cc",
+        "case-65449b839105",
+        "case-692e73b7e651",
+        "case-6d73f76fa8ce",
+        "case-936fc09f416c",
+        "case-acd0bfa7d58b",
+        "case-b1bd5683b57a",
+        "case-b26dd75b2d51",
+        "case-b4c7ff13c6f3",
+        "case-bcea2b291dd5",
+        "case-d3a63b579b60",
+        "case-e279bcc0f99e",
+        "case-ea09a24590a7",
+        "case-ea1028ed5e0f",
+        "case-f1e1186726cc",
+        "case-f3631072d960",
+        "case-f8d8e2679560",
+        "case-fdb8b0cdf978",
+        "case-ff03cf75659e"
       ],
+      "removed_public_ids": [],
       "changed_shards": [
         "index/0000.json"
       ]

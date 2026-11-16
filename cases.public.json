@@ -1,18 +1,18 @@
 {
   "meta": {
-    "snapshot_id": "staging-20261105T022202-b50305cd",
-    "previous_snapshot_id": "staging-20261105T021552-61c830da",
+    "snapshot_id": "staging-20261116T215644-85782175",
+    "previous_snapshot_id": "staging-20261030T191939-8e282de3",
     "dataset_version": "car-wash-v3-7-3",
     "product_version": "3.7.3",
     "public_ui_fingerprint": "303235efa15028cb9f95b2248a03ca436b0394004608461077bbfb46881d87a9",
-    "created_at": "2026-11-05T02:22:02.653048+00:00",
-    "activated_at": "2026-11-05T02:22:02.653048+00:00",
+    "created_at": "2026-11-16T21:56:44.406788+00:00",
+    "activated_at": "2026-11-16T21:56:44.406788+00:00",
     "case_count": 34,
     "release_profile": "INTERNAL_FULL",
     "asset_mode": "INTERNAL_REFERENCE_OR_GENERATED",
     "asset_generator_version": null,
     "approved_public_copy_hashes": {
-      "case-f8d8e2679560": "5debe9a99266de4d632682f3009b4ea2336b12d4f86711dd7509acc194ae7e91",
+      "case-f8d8e2679560": "acc6c78638d8965c2a9b6e68c0a83f7a0ae9130fe8762f1c898642fcb3ab704b",
       "case-ea09a24590a7": "e7ed91ff9c20d47bdd67bc774e3f1699e1649985bd0adbb2caee0f774e8df059",
       "case-f1e1186726cc": "526db1117c9058c11c6a61fe54ae5d268deedbc7f1b521307b7ebcd23f37fd83",
       "case-202b933f7f34": "2e39a919358198435ff4456734e7c2a8abcda0feabd7f4692a6e6f0c04ab073d",
@@ -42,15 +42,15 @@
       "case-b1bd5683b57a": "5f6ad0ad6184cfae8d4306ef65cf592f41b66d0e6c3ad9a250d65b100cecc26c",
       "case-ff03cf75659e": "cbda0b7231037872c00d2c67de9e4f1dc295701514bb7b6bc4f7f09bdb59e592",
       "case-bcea2b291dd5": "957cf230e5c7a864f861121d5d8d6873e304e6988f1bd5fa47e6813f5dc93183",
-      "case-9ab887e6221d": "fda5620ef93833959ba16fa93685c5476350b63698e02f88764b368947aa52a4",
       "case-b4c7ff13c6f3": "cf49e3ee5e9583b6d7cc36b396d92cf896b96ea4afcceae301474dac8989cda3",
       "case-6099151569cc": "ab56ffb9e55bd00531be38dd7bdfc726de2106a836b66027f53330a684fa3b1f",
-      "case-5d4fa7dff381": "bd549aab4e54266ef84d5c2d50f09a14a5796379053f196048c6fc14068ba217"
+      "case-5d4fa7dff381": "bd549aab4e54266ef84d5c2d50f09a14a5796379053f196048c6fc14068ba217",
+      "case-fdb8b0cdf978": "eb4f19b41f6acccb62cd043d54a12ac5472f32f5e06e9908f28715bace5cb5a9"
     },
     "visibility": "local-editorial-preview-only",
     "production_deployment": "DISABLED",
     "approval_boundary": "Internal editorial preview only; human review and publication approval are still required.",
-    "source_commit_sha": "621bf28ef464ea37a91dbe0149a8738050ad0b24",
+    "source_commit_sha": "2bf4397fa986f5b9450be12b31488b1468ab8f1d",
     "public_schema_version": "public-case-copy-v1",
     "taxonomy_version": "case-taxonomy-v1",
     "render_mode": "INTERNAL_STAGING",
@@ -89,28 +89,34 @@
       "use_summary": "Use the filters to find relevant examples, read the original source, and consider local context before applying an approach elsewhere."
     },
     "site_design": {
+      "schema_version": 1,
       "brand_name": "CAR-WASH",
       "brand_subtitle": "WASCO · Climate Impacts Group",
-      "contact_email": "cig@uw.edu",
-      "density": "standard",
       "description": "Source-bounded climate adaptation case studies for Washington and the Pacific Northwest.",
-      "hero_alt": "",
+      "contact_email": "cig@uw.edu",
+      "theme": {
+        "primary": "#34735e",
+        "accent": "#57418f",
+        "background": "#ffffff",
+        "text": "#14273a"
+      },
+      "density": "standard",
       "hero_image": "",
+      "hero_alt": "",
       "navigation": [
         {
-          "href": "#library",
-          "label": "Case Studies"
+          "label": "Case Studies",
+          "href": "#library"
         },
         {
-          "href": "#using-cases",
-          "label": "Using Case Studies"
+          "label": "Using Case Studies",
+          "href": "#using-cases"
         },
         {
-          "href": "#methodology",
-          "label": "Methodology"
+          "label": "Methodology",
+          "href": "#methodology"
         }
       ],
-      "schema_version": 1,
       "sections": [
         {
           "id": "hero",
@@ -132,13 +138,7 @@
           "type": "builtin",
           "visible": true
         }
-      ],
-      "theme": {
-        "accent": "#57418f",
-        "background": "#ffffff",
-        "primary": "#34735e",
-        "text": "#14273a"
-      }
+      ]
     },
     "site_image_credits": {},
     "site_revision_id": "site-revision-c2bddf74fe456c36-b20016e5",
@@ -184,6 +184,11 @@
         "lifecycle_event_id": "lifecycle-8181d30eba044fd9",
         "expected_public_version": "editorial-780712a84f674eea"
       },
+      "case-1c636acd76dc6af9": {
+        "action": "WITHDRAW",
+        "lifecycle_event_id": "lifecycle-7aa120590b164e43",
+        "expected_public_version": "editorial-866bd905851e4ae4"
+      },
       "case-dcfbbb80f76d1b89": {
         "action": "WITHDRAW",
         "lifecycle_event_id": "lifecycle-652e1c7ccc48494d",
@@ -198,17 +203,12 @@
         "action": "WITHDRAW",
         "lifecycle_event_id": "lifecycle-fb97b145caf241fe",
         "expected_public_version": "editorial-d881665f55b94059"
-      },
-      "case-fc5a1c075a7ec7fe": {
-        "action": "WITHDRAW",
-        "lifecycle_event_id": "lifecycle-b64e0933332d42bd",
-        "expected_public_version": "editorial-f4f0d06956454fa9"
       }
     },
     "exact_case_versions": {
       "case-f1e1186726cc4e3e": "case-f1e1186726cc4e3e-v-f1ab81684778",
       "case-ea09a24590a79bd4": "case-ea09a24590a79bd4-v-3dc82e87a615",
-      "case-f8d8e2679560cda0": "case-f8d8e2679560cda0-v-82f2b4e03f1f",
+      "case-f8d8e2679560cda0": "editorial-4f9b4a4a6517476c",
       "case-202b933f7f3474fd": "case-202b933f7f3474fd-v-d5ba66cc22c3",
       "case-3a7082ea7b13e238": "case-3a7082ea7b13e238-v-f705c8b998e4",
       "case-6d73f76fa8cebbc3": "case-6d73f76fa8cebbc3-v-a16839607781",
@@ -233,9 +233,9 @@
       "case-4ede7f783a7ccfd3": "case-4ede7f783a7ccfd3-v-ee13796a0c2a",
       "case-65449b8391057437": "case-65449b8391057437-v-59913b1fb364",
       "case-d3a63b579b601b80": "case-d3a63b579b601b80-v-e151a62d9081",
+      "case-fc5a1c075a7ec7fe": "editorial-f4f0d06956454fa9",
       "case-881c1ce62e735c55": "editorial-266fa8aa8d2c4946",
       "case-005142a5bc7ab08b": "editorial-b88bdd17c92d458b",
-      "case-1c636acd76dc6af9": "editorial-866bd905851e4ae4",
       "case-88982690711cb588": "editorial-b26792d457e54189",
       "case-702cf2b2336c1439": "editorial-fa2f861ae92a4f33",
       "case-a6483fa8f15cdb49": "editorial-e09a5579ffbd4f19",
@@ -243,27 +243,12 @@
     },
     "primary_collection": "Washington and Pacific Northwest",
     "external_collection": "Transferable Examples from Other Regions",
-    "featured_public_id": "case-5a144b34bd8a",
-    "public_index": {
-      "schema": "car-wash-public-index-manifest-v1",
-      "path": "public-data/manifest.json",
-      "active_public_count": 34,
-      "shard_count": 1,
-      "delta": {
-        "changed_public_ids": [],
-        "removed_public_ids": [
-          "case-fdb8b0cdf978"
-        ],
-        "changed_shards": [
-          "index/0000.json"
-        ]
-      }
-    }
+    "featured_public_id": "case-5a144b34bd8a"
   },
   "cases": [
     {
-      "title": "Swinomish Kiket Island Clam Garden",
-      "summary": "In Kiket Island, Swinomish Reservation, Washington, Swinomish Kiket Island Clam Garden is a monitoring and adaptive management initiative. The program uses community-based biocultural clam-garden restoration using rock-terrace construction and tending. The project responds to sea-level rise and ocean acidification. Available materials report that construction began and long-term monitoring initiated. The available materials do not identify a measured project outcome. The case is presented as an implementation example, not as evidence that the same results will occur in another place or under different conditions.",
+      "title": "Swinomish Kiket Island Clam Garden; TEST",
+      "summary": "The source describes community-based biocultural clam-garden restoration using rock-terrace construction and tending in Kiket Island, Swinomish Reservation, Washington in response to source explicitly links the project to sea-level rise and ocean acidification. The current record does not establish broader outcomes.",
       "location": "Kiket Island, Swinomish Reservation, Washington",
       "region": "Kiket Island, Swinomish Reservation, Washington",
       "hazards": [
@@ -284,11 +269,21 @@
       ],
       "transferability": "Nation-led biocultural and nature-based coastal adaptation.",
       "limitations": "Measured ecological/cultural outcomes, private cultural knowledge, or generalized transferability.",
+      "last_source_checked_at": "",
       "collection": "Washington and Pacific Northwest",
       "source_url": "https://www.swinomish-nsn.gov/fisheries/page/clam-garden",
+      "image_attribution": "Image from the Swinomish Fisheries clam-garden page.",
+      "image_focal_point": "50% 50%",
+      "lead_organization": "",
+      "partners": [
+        "Not yet recorded"
+      ],
       "public_id": "case-f8d8e2679560",
       "slug": "case-f8d8e2679560",
-      "reported_outcomes": "Construction began; long-term monitoring initiated. No measured project outcome identified.",
+      "reported_outcomes": [
+        "Construction began; long-term monitoring initiated.",
+        "No measured project outcome identified."
+      ],
       "region_tags": [
         "PUGET_SOUND"
       ],
@@ -299,7 +294,6 @@
       ],
       "geographic_scale": "COMMUNITY",
       "adaptation_strategies": [
-        "MONITORING_DATA_EARLY_WARNING",
         "NATURE_BASED_RESTORATION_GREEN_INFRASTRUCTURE",
         "COMMUNITY_ENGAGEMENT_CAPACITY_BUILDING"
       ],
@@ -3329,73 +3323,6 @@
       "asset_variants": []
     },
     {
-      "title": "DNR Planning Prescribed Burn on 717 Acres in Yakima County",
-      "summary": "",
-      "location": "",
-      "region": "",
-      "hazards": [
-        "COMPOUND_MULTI_HAZARD"
-      ],
-      "themes": [
-        "GOVERNANCE_PLANNING"
-      ],
-      "climate_mechanism": "",
-      "adaptation_action": "",
-      "implementation_stage": "Planning and design",
-      "outcomes": [],
-      "transferability": "",
-      "limitations": "No measured outcome may be claimed unless the original source reports it.",
-      "last_source_checked_at": "",
-      "source_url": "https://dnr.wa.gov/news/2026/dnr-planning-prescribed-burn-717-acres-yakima-county",
-      "image_url": "",
-      "image_attribution": "",
-      "image_focal_point": "center",
-      "lead_organization": "",
-      "partners": [
-        "Not yet recorded"
-      ],
-      "public_id": "case-9ab887e6221d",
-      "slug": "case-9ab887e6221d",
-      "collection": "Transferable Examples from Other Regions",
-      "reported_outcomes": [],
-      "region_tags": [
-        "UNITED_STATES_OTHER"
-      ],
-      "location_types": [
-        "REGIONAL"
-      ],
-      "geographic_scale": "CITY_COUNTY",
-      "adaptation_strategies": [
-        "ASSESSMENT_PLANNING"
-      ],
-      "lead_organization_types": [
-        "MULTI_PARTNER"
-      ],
-      "partner_organization_types": [],
-      "public_copy_version": "public-copy-draft-v2",
-      "taxonomy_version": "case-taxonomy-v1",
-      "claim_status": "NOT_EVALUATED",
-      "preview_target": false,
-      "latitude": null,
-      "longitude": null,
-      "primary_hazard": "OTHER_ADAPTATION",
-      "location_precision": "UNRESOLVED",
-      "coordinate_status": "NEEDS_LOCATION_REVIEW",
-      "map_visible": false,
-      "hazard_label": "Other adaptation",
-      "hazard_color": "#7A8492",
-      "display_order": 30,
-      "asset_filename": "case-9ab887e6221d-powell-shoreline.svg",
-      "asset_alt": "Illustration of a restored shoreline with planted edge protection and waves.",
-      "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
-      "asset_license": "PROJECT_GENERATED",
-      "asset_width": 1600,
-      "asset_height": 900,
-      "asset_focal_point": "center",
-      "asset_checksum": "d5cd8e22cd958beef193ab0a8c2df65c4c34cd71e337c693b1acd065317f7d25",
-      "asset_variants": []
-    },
-    {
       "title": "Climate change impacts",
       "summary": "",
       "location": "",
@@ -3451,15 +3378,15 @@
       "map_visible": false,
       "hazard_label": "Other adaptation",
       "hazard_color": "#7A8492",
-      "display_order": 31,
-      "asset_filename": "case-b4c7ff13c6f3-portland-depaving.svg",
-      "asset_alt": "Illustration of a depaved neighborhood street with trees and rain gardens.",
+      "display_order": 30,
+      "asset_filename": "case-b4c7ff13c6f3-powell-shoreline.svg",
+      "asset_alt": "Illustration of a restored shoreline with planted edge protection and waves.",
       "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
       "asset_license": "PROJECT_GENERATED",
       "asset_width": 1600,
       "asset_height": 900,
       "asset_focal_point": "center",
-      "asset_checksum": "f2f1dcffb6615ef795a175ee9a9e3ecb18748ab829b7c49c475dd701fd2cee0a",
+      "asset_checksum": "d5cd8e22cd958beef193ab0a8c2df65c4c34cd71e337c693b1acd065317f7d25",
       "asset_variants": []
     },
     {
@@ -3512,21 +3439,21 @@
       "preview_target": false,
       "latitude": null,
       "longitude": null,
+      "primary_hazard": "OTHER_ADAPTATION",
       "location_precision": "UNRESOLVED",
       "coordinate_status": "NEEDS_LOCATION_REVIEW",
-      "primary_hazard": "OTHER_ADAPTATION",
-      "map_visible": true,
+      "map_visible": false,
       "hazard_label": "Other adaptation",
       "hazard_color": "#7A8492",
-      "display_order": 32,
-      "asset_filename": "case-6099151569cc-invasive-plants.svg",
-      "asset_alt": "Illustration of managed vegetation and restored native habitat.",
+      "display_order": 31,
+      "asset_filename": "case-6099151569cc-portland-depaving.svg",
+      "asset_alt": "Illustration of a depaved neighborhood street with trees and rain gardens.",
       "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
       "asset_license": "PROJECT_GENERATED",
       "asset_width": 1600,
       "asset_height": 900,
       "asset_focal_point": "center",
-      "asset_checksum": "6875629b9bb3a20620f5f430093d80af149470b9181120cc708b004dccbdbe93",
+      "asset_checksum": "f2f1dcffb6615ef795a175ee9a9e3ecb18748ab829b7c49c475dd701fd2cee0a",
       "asset_variants": []
     },
     {
@@ -3579,6 +3506,73 @@
       "preview_target": false,
       "latitude": null,
       "longitude": null,
+      "primary_hazard": "OTHER_ADAPTATION",
+      "location_precision": "UNRESOLVED",
+      "coordinate_status": "NEEDS_LOCATION_REVIEW",
+      "map_visible": false,
+      "hazard_label": "Other adaptation",
+      "hazard_color": "#7A8492",
+      "display_order": 32,
+      "asset_filename": "case-5d4fa7dff381-invasive-plants.svg",
+      "asset_alt": "Illustration of managed vegetation and restored native habitat.",
+      "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
+      "asset_license": "PROJECT_GENERATED",
+      "asset_width": 1600,
+      "asset_height": 900,
+      "asset_focal_point": "center",
+      "asset_checksum": "6875629b9bb3a20620f5f430093d80af149470b9181120cc708b004dccbdbe93",
+      "asset_variants": []
+    },
+    {
+      "title": "Notice of Inventory Completion: Indiana University, Bloomington, IN",
+      "summary": "The Interior Department announces the completion of an inventory at Indiana University, Bloomington, IN. The exact contents of the inventory are not specified in the source.",
+      "location": "",
+      "region": "",
+      "hazards": [
+        "COMPOUND_MULTI_HAZARD"
+      ],
+      "themes": [
+        "GOVERNANCE_PLANNING"
+      ],
+      "climate_mechanism": "",
+      "adaptation_action": "",
+      "implementation_stage": "Planning and design",
+      "outcomes": [],
+      "transferability": "",
+      "limitations": "No measured outcome may be claimed unless the original source reports it.",
+      "last_source_checked_at": "",
+      "source_url": "https://www.federalregister.gov/documents/2026/10/22/2026-21538/notice-of-inventory-completion-indiana-university-bloomington-in",
+      "image_url": "",
+      "image_attribution": "",
+      "image_focal_point": "center",
+      "lead_organization": "",
+      "partners": [
+        "Not yet recorded"
+      ],
+      "public_id": "case-fdb8b0cdf978",
+      "slug": "case-fdb8b0cdf978",
+      "collection": "Transferable Examples from Other Regions",
+      "reported_outcomes": [],
+      "region_tags": [
+        "UNITED_STATES_OTHER"
+      ],
+      "location_types": [
+        "REGIONAL"
+      ],
+      "geographic_scale": "REGIONAL",
+      "adaptation_strategies": [
+        "ASSESSMENT_PLANNING"
+      ],
+      "lead_organization_types": [
+        "MULTI_PARTNER"
+      ],
+      "partner_organization_types": [],
+      "public_copy_version": "public-copy-draft-v2",
+      "taxonomy_version": "case-taxonomy-v1",
+      "claim_status": "NOT_EVALUATED",
+      "preview_target": false,
+      "latitude": null,
+      "longitude": null,
       "location_precision": "UNRESOLVED",
       "coordinate_status": "NEEDS_LOCATION_REVIEW",
       "primary_hazard": "OTHER_ADAPTATION",
@@ -3586,7 +3580,7 @@
       "hazard_label": "Other adaptation",
       "hazard_color": "#7A8492",
       "display_order": 33,
-      "asset_filename": "case-5d4fa7dff381-wildfire-strategy.svg",
+      "asset_filename": "case-fdb8b0cdf978-wildfire-strategy.svg",
       "asset_alt": "Illustration of a wildfire-resilient utility and forest-edge landscape.",
       "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
       "asset_license": "PROJECT_GENERATED",
