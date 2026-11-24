@@ -1,8 +1,8 @@
 {
   "schema": "car-wash-public-release-manifest-v1",
-  "snapshot_id": "staging-20261124T212559-58d2b20b",
-  "generated_at": "2026-11-24T21:25:59.932532+00:00",
-  "case_count": 35,
+  "snapshot_id": "staging-20261124T213109-56d64c21",
+  "generated_at": "2026-11-24T21:31:09.282461+00:00",
+  "case_count": 36,
   "release_profile": "INTERNAL_FULL",
   "visibility": "local-editorial-preview-only",
   "production_deployment": "DISABLED",
@@ -44,7 +44,8 @@
     "case-702cf2b2336c1439": "editorial-fa2f861ae92a4f33",
     "case-a6483fa8f15cdb49": "editorial-e09a5579ffbd4f19",
     "case-1ac4d4e7a3cf0e9a": "editorial-6205fd99751142a0",
-    "case-1b8e8c4842922d2e": "editorial-f908bbcd260040e4"
+    "case-1b8e8c4842922d2e": "editorial-f908bbcd260040e4",
+    "case-cd5ae3b3f534d624": "editorial-9718cb925ef7426f"
   },
   "case_removal_proofs": {
     "case-11c6d184d7c59fbc": {
@@ -203,11 +204,11 @@
   "public_index": {
     "schema": "car-wash-public-index-manifest-v1",
     "path": "public-data/manifest.json",
-    "active_public_count": 35,
+    "active_public_count": 36,
     "shard_count": 1,
     "delta": {
       "changed_public_ids": [
-        "case-8af5cf94f607"
+        "case-10c71b335a95"
       ],
       "removed_public_ids": [],
       "changed_shards": [
@@ -251,6 +252,7 @@
     "assets/case-6099151569cc-portland-depaving.svg": "f2f1dcffb6615ef795a175ee9a9e3ecb18748ab829b7c49c475dd701fd2cee0a",
     "assets/case-5d4fa7dff381-invasive-plants.svg": "6875629b9bb3a20620f5f430093d80af149470b9181120cc708b004dccbdbe93",
     "assets/case-fdb8b0cdf978-wildfire-strategy.svg": "9066c58636525f53585278cfe0de16b2a4b314b29666df3da281cd1a6dee8092",
-    "assets/case-8af5cf94f607-paris-cooling.svg": "5433be3fd1ef0d2e370f2b2d84b2359202a8701141122e5ca8776033b4cad8d2"
+    "assets/case-8af5cf94f607-paris-cooling.svg": "5433be3fd1ef0d2e370f2b2d84b2359202a8701141122e5ca8776033b4cad8d2",
+    "assets/case-10c71b335a95-paris-cooling.svg": "5433be3fd1ef0d2e370f2b2d84b2359202a8701141122e5ca8776033b4cad8d2"
   }
 }

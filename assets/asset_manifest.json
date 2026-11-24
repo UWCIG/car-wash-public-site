@@ -1740,5 +1740,23 @@
     "sha256": "5433be3fd1ef0d2e370f2b2d84b2359202a8701141122e5ca8776033b4cad8d2",
     "source_url": null,
     "width": 1600
+  },
+  {
+    "alt_text": "Illustration of shaded urban cooling streets and planted public space.",
+    "asset_id": "asset-case-10c71b335a95",
+    "asset_role": "CARD",
+    "attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
+    "case_id": "case-10c71b335a95",
+    "focal_point": "center",
+    "height": 900,
+    "last_verified_at": "2026-11-24T21:31:09.293750+00:00",
+    "license_name": "PROJECT_GENERATED",
+    "license_url": null,
+    "mime_type": "image/svg+xml",
+    "public_export_path": "assets/case-10c71b335a95-paris-cooling.svg",
+    "rights_status": "GENERATED_FALLBACK",
+    "sha256": "5433be3fd1ef0d2e370f2b2d84b2359202a8701141122e5ca8776033b4cad8d2",
+    "source_url": null,
+    "width": 1600
   }
 ]

@@ -1,13 +1,13 @@
 {
   "meta": {
-    "snapshot_id": "staging-20261124T212559-58d2b20b",
-    "previous_snapshot_id": "staging-20261116T221402-028b0fd4",
+    "snapshot_id": "staging-20261124T213109-56d64c21",
+    "previous_snapshot_id": "staging-20261124T212559-58d2b20b",
     "dataset_version": "car-wash-v3-7-3",
     "product_version": "3.7.3",
     "public_ui_fingerprint": "303235efa15028cb9f95b2248a03ca436b0394004608461077bbfb46881d87a9",
-    "created_at": "2026-11-24T21:25:59.932532+00:00",
-    "activated_at": "2026-11-24T21:25:59.932532+00:00",
-    "case_count": 35,
+    "created_at": "2026-11-24T21:31:09.282461+00:00",
+    "activated_at": "2026-11-24T21:31:09.282461+00:00",
+    "case_count": 36,
     "release_profile": "INTERNAL_FULL",
     "asset_mode": "INTERNAL_REFERENCE_OR_GENERATED",
     "asset_generator_version": null,
@@ -205,7 +205,8 @@
       "case-702cf2b2336c1439": "editorial-fa2f861ae92a4f33",
       "case-a6483fa8f15cdb49": "editorial-e09a5579ffbd4f19",
       "case-1ac4d4e7a3cf0e9a": "editorial-6205fd99751142a0",
-      "case-1b8e8c4842922d2e": "editorial-f908bbcd260040e4"
+      "case-1b8e8c4842922d2e": "editorial-f908bbcd260040e4",
+      "case-cd5ae3b3f534d624": "editorial-9718cb925ef7426f"
     },
     "primary_collection": "Washington and Pacific Northwest",
     "external_collection": "Transferable Examples from Other Regions",
@@ -3616,6 +3617,73 @@
       "hazard_color": "#7A8492",
       "display_order": 34,
       "asset_filename": "case-8af5cf94f607-paris-cooling.svg",
+      "asset_alt": "Illustration of shaded urban cooling streets and planted public space.",
+      "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
+      "asset_license": "PROJECT_GENERATED",
+      "asset_width": 1600,
+      "asset_height": 900,
+      "asset_focal_point": "center",
+      "asset_checksum": "5433be3fd1ef0d2e370f2b2d84b2359202a8701141122e5ca8776033b4cad8d2",
+      "asset_variants": []
+    },
+    {
+      "title": "List of Borrowers Who Have Defaulted on Their Health Education Assistance Loans",
+      "summary": "The Education Department publishes a list of borrowers who have defaulted on their Health Education Assistance Loans.",
+      "location": "",
+      "region": "",
+      "hazards": [
+        "COMPOUND_MULTI_HAZARD"
+      ],
+      "themes": [
+        "PUBLIC_HEALTH"
+      ],
+      "climate_mechanism": "",
+      "adaptation_action": "",
+      "implementation_stage": "Planning and design",
+      "outcomes": [],
+      "transferability": "",
+      "limitations": "No measured outcome may be claimed unless the original source reports it.",
+      "last_source_checked_at": "",
+      "source_url": "https://www.federalregister.gov/documents/2026/10/29/2026-22040/list-of-borrowers-who-have-defaulted-on-their-health-education-assistance-loans",
+      "image_url": "",
+      "image_attribution": "",
+      "image_focal_point": "center",
+      "lead_organization": "",
+      "partners": [
+        "Not yet recorded"
+      ],
+      "public_id": "case-10c71b335a95",
+      "slug": "case-10c71b335a95",
+      "collection": "Transferable Examples from Other Regions",
+      "reported_outcomes": [],
+      "region_tags": [
+        "UNITED_STATES_OTHER"
+      ],
+      "location_types": [
+        "REGIONAL"
+      ],
+      "geographic_scale": "REGIONAL",
+      "adaptation_strategies": [
+        "ASSESSMENT_PLANNING"
+      ],
+      "lead_organization_types": [
+        "MULTI_PARTNER"
+      ],
+      "partner_organization_types": [],
+      "public_copy_version": "public-copy-draft-v2",
+      "taxonomy_version": "case-taxonomy-v1",
+      "claim_status": "NOT_EVALUATED",
+      "preview_target": false,
+      "latitude": null,
+      "longitude": null,
+      "location_precision": "UNRESOLVED",
+      "coordinate_status": "NEEDS_LOCATION_REVIEW",
+      "primary_hazard": "OTHER_ADAPTATION",
+      "map_visible": true,
+      "hazard_label": "Other adaptation",
+      "hazard_color": "#7A8492",
+      "display_order": 35,
+      "asset_filename": "case-10c71b335a95-paris-cooling.svg",
       "asset_alt": "Illustration of shaded urban cooling streets and planted public space.",
       "asset_attribution": "Local CAR-WASH generated illustration; not a documentary photograph.",
       "asset_license": "PROJECT_GENERATED",
